@@ -1,0 +1,18 @@
+{
+  "type": "cmr:custom_fan",
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "minecraft:oak_fence"
+    }
+  ],
+  "results": [
+    {
+      "item": {
+        "id": "minecraft:diamond"
+      }
+    }
+  ]
+}
