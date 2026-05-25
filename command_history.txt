@@ -1,0 +1,50 @@
+/rainweather set heavy
+/time set 0
+/reload
+/give @p oak_fence
+/reload
+/time set 0
+/reload
+/time set 0
+/reload
+/give @p minecraft:diamond
+/reload
+/rainweather set light
+/reload
+/tp @p ~ ~100 ~
+/reload
+/rainweather help
+/
+/time set 1000
+/gamemode survival
+/gamemode creative
+/locate structure minecraft:village_desert
+/tp @s 2768 ~ -5808
+/time set 0
+/execute in northstar:earth_orbit run tp
+/execute in northstar:earth_orbit run tp @p 0 100 0
+/execute in northstar: run tp @p 0 100 0
+/execute in northstar:mars run tp @p 0 100 0
+/execute in northstar:mercury run tp @p 0 100 0
+/execute in northstar:moon run tp @p 0 100 0
+/execute in northstar:venus run tp @p 0 100 0
+/kill
+/time set 0
+/reload
+/give @p tacz:attachment
+/reload
+/time set 0
+/place structure dimdungeons:entrance_1 ~ ~10 ~
+/place template dimdungeons:entrance_1 ~ ~10 ~
+/place template dimdungeons:entrance_2 ~ ~ ~
+/place template dimdungeons:fourway_1 ~ ~ ~
+/time set 1000
+/gamemode creative
+/fill 770 198 -146
+/fill 770 198 -146 755 200 -131
+/fill 770 198 -146 755 200 -131 create:andesite_casing
+/difficulty peaceful
+/fill 751 198 -146 create:andesite_casing
+/fill 751 198 -146 736 200 -131 create:andesite_casing
+/fill 731 197 -146 create:andesite_casing
+/fill 731 197 -146 717 200 -131 create:andesite_casing

@@ -1,0 +1,4 @@
+[15:44:11] [WARN] [FabricLoader/Resolution]: Mod resolution failed
+[15:44:11] [INFO] [FabricLoader/Resolution]: Immediate reason: [HARD_DEP_NO_CANDIDATE carpet_tis_addition 1.63.2 {depends carpet @ [>=1.4.147]}, ROOT_FORCELOAD_SINGLE carpet_tis_addition 1.63.2]
+[15:44:11] [INFO] [FabricLoader/Resolution]: Reason: [HARD_DEP carpet_tis_addition 1.63.2 {depends carpet @ [>=1.4.147]}, HARD_DEP carpet_tis_addition 1.63.2 {depends mixinextras @ [>=0.3.0]}, HARD_DEP carpetskyadditions 1.21.1-5.0.0 {depends carpet @ [*]}]
+[15:44:11] [INFO] [FabricLoader/Resolution]: Fix: add [add:carpet 1.4.147 ([[1.4.147,∞)]), add:mixinextras 0.3.0 ([[0.3.0,∞)])], remove [], replace []
