@@ -26,7 +26,7 @@
 	basicEnemyHealthScaling = 1.0
 	advancedEnemyHealthScaling = 2.0
 	#The number of themes to expect in the common config.
-	numberOfThemes = 3
+	numberOfThemes = 5
 
 #Settings for Theme 1
 [dungeonTheme1]
@@ -69,12 +69,12 @@
 
 #Settings for Theme 4
 [dungeonTheme4]
-	themeEntrances4 = []
-	themeFourways4 = []
-	themeThreeways4 = []
-	themeHallways4 = []
-	themeCorners4 = []
-	themeEnds4 = []
+	themeEntrances4 = [["rainmachineryisles:create_entrance_1"], ["rainmachineryisles:create_entrance_2"]]
+	themeFourways4 = [["rainmachineryisles:create_fourway_1"]]
+	themeThreeways4 = [["rainmachineryisles:create_fourway_1"]]
+	themeHallways4 = [["rainmachineryisles:create_fourway_1"]]
+	themeCorners4 = [["rainmachineryisles:create_fourway_1"]]
+	themeEnds4 = [["rainmachineryisles:create_fourway_1"]]
 	themeEnemySet1_4 = ["minecraft:zombie", "minecraft:husk", "minecraft:drowned", "minecraft:spider"]
 	themeEnemySet2_4 = ["minecraft:wither_skeleton", "minecraft:stray", "minecraft:skeleton", "minecraft:pillager"]
 	themeEnemyHealthScaling4 = 1.0
@@ -82,12 +82,12 @@
 
 #Settings for Theme 5
 [dungeonTheme5]
-	themeEntrances5 = []
-	themeFourways5 = []
-	themeThreeways5 = []
-	themeHallways5 = []
-	themeCorners5 = []
-	themeEnds5 = []
+	themeEntrances5 = [["rainmachineryisles:create_entrance_1", "rainmachineryisles:create_entrance_2"]]
+	themeFourways5 = [["rainmachineryisles:create_fourway_1"]]
+	themeThreeways5 = [["rainmachineryisles:create_fourway_1"]]
+	themeHallways5 = [["rainmachineryisles:create_fourway_1"]]
+	themeCorners5 = [["rainmachineryisles:create_fourway_1"]]
+	themeEnds5 = [["rainmachineryisles:create_fourway_1"]]
 	themeEnemySet1_5 = ["minecraft:zombie", "minecraft:husk", "minecraft:drowned", "minecraft:spider"]
 	themeEnemySet2_5 = ["minecraft:wither_skeleton", "minecraft:stray", "minecraft:skeleton", "minecraft:pillager"]
 	themeEnemyHealthScaling5 = 1.0
