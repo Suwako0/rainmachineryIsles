@@ -1,0 +1,20 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"tacz:workbench_a","components":{"minecraft:custom_data":{"BlockId":"tacz:ammo_workbench"}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"GunFireMode":"UNKNOWN","HasBulletInBarrel":0,"GunId":"wemql_r:hk416","GunCurrentAmmoCount":0}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"GunFireMode":"UNKNOWN","HasBulletInBarrel":0,"GunId":"wemql_r:m7","GunCurrentAmmoCount":0}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"GunFireMode":"UNKNOWN","HasBulletInBarrel":0,"GunId":"wemql_r:m14_long_foot_stool","GunCurrentAmmoCount":0}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"GunFireMode":"UNKNOWN","HasBulletInBarrel":0,"GunId":"wemql_r:m14_short","GunCurrentAmmoCount":0}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"GunFireMode":"UNKNOWN","HasBulletInBarrel":0,"GunId":"wemql_r:m14_long","GunCurrentAmmoCount":0}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"GunFireMode":"UNKNOWN","HasBulletInBarrel":0,"GunId":"wemql_r:akm_long","GunCurrentAmmoCount":0}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"GunFireMode":"UNKNOWN","HasBulletInBarrel":0,"GunId":"wemql_r:aug","GunCurrentAmmoCount":0}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"GunFireMode":"UNKNOWN","HasBulletInBarrel":0,"GunId":"wemql_r:m14_short_foot_stool","GunCurrentAmmoCount":0}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"GunFireMode":"UNKNOWN","HasBulletInBarrel":0,"GunId":"wemql_r:akm","GunCurrentAmmoCount":0}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"GunFireMode":"AUTO","HasBulletInBarrel":1,"GunId":"wemql_r:m7","GunCurrentAmmoCount":20}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:workbench_c","components":{"minecraft:custom_data":{"BlockId":"tacz:attachment_workbench"}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:iron_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:attachment","components":{"minecraft:custom_data":{"AttachmentId":"tacz:sight_sro_dot"}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"HasBulletInBarrel":1,"GunFireMode":"SEMI","GunId":"tacz:deagle","GunCurrentAmmoCount":7}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:gun_smith_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"paraglider:paraglider"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

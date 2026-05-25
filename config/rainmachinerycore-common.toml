@@ -1,0 +1,42 @@
+#Weather System Settings
+[weather]
+	#Whether it always rains in the Overworld
+	alwaysRain = true
+	#Weather change interval in minutes
+	# Default: 20
+	# Range: 5 ~ 120
+	weatherChangeInterval = 20
+	#Chance of light rain (0-1)
+	# Default: 0.4
+	# Range: 0.0 ~ 1.0
+	lightRainChance = 0.4
+	#Chance of heavy rain (0-1)
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	heavyRainChance = 0.2
+	#Whether thunder is enabled during heavy rain
+	enableThunder = true
+
+#Crop Growth Settings
+[crops]
+	#Rain slows down crop growth (0=no effect, 1=no growth)
+	# Default: 0.7
+	# Range: 0.0 ~ 1.0
+	rainGrowthSlowdown = 0.7
+	#Height to check for rain blockage above crops
+	# Default: 10
+	# Range: 1 ~ 64
+	rainCheckHeight = 10
+	#Whether to affect all modded crops
+	affectAllCrops = true
+
+#Visual Effects Settings
+[visuals]
+	#Whether to enable rainy day fog
+	enableFog = true
+	#Whether to enable wind particles
+	enableWind = true
+	#Particle effect intensity multiplier
+	# Default: 1.0
+	# Range: 0.0 ~ 3.0
+	particleMultiplier = 1.0

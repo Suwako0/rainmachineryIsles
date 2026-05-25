@@ -1,0 +1,4 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"tacz:attachment","components":{"minecraft:custom_data":{"AttachmentId":"tacz:sight_acro_rifle"}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

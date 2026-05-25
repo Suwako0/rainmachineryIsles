@@ -1,0 +1,82 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3FE166DB82846524"
+	group: ""
+	id: "3FE166DB82846524"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3F6903C3E6AE602B"
+			rewards: [
+				{
+					id: "6F37631608E98FF8"
+					item: {
+						count: 1
+						id: "paraglider:paraglider"
+					}
+					type: "item"
+				}
+				{
+					id: "4C080EF84CDB6F71"
+					item: {
+						count: 1
+						id: "hooked:iron_hook"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3BC347E25592B2D9"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F6903C3E6AE602B"]
+			id: "60E4084C211138D9"
+			tasks: [{
+				id: "5662F07C1689F630"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60E4084C211138D9"]
+			id: "02DCE47C7EAEADE7"
+			tasks: [{
+				id: "3738BF49336CB89D"
+				item: { count: 1, id: "create:cogwheel" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["60E4084C211138D9"]
+			id: "3B61D9650E9D51D7"
+			tasks: [
+				{
+					id: "0A3C683AB4A4D14B"
+					item: { count: 1, id: "tacz:gun_smith_table" }
+					type: "item"
+				}
+				{
+					id: "1533DDC4EAC2FE6D"
+					item: { components: { "minecraft:custom_data": { BlockId: "tacz:attachment_workbench" } }, count: 1, id: "tacz:workbench_c" }
+					type: "item"
+				}
+				{
+					id: "4354E8EF591C7716"
+					item: { components: { "minecraft:custom_data": { BlockId: "tacz:ammo_workbench" } }, count: 1, id: "tacz:workbench_a" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.5d
+		}
+	]
+}
