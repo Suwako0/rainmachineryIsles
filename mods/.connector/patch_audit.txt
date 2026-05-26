@@ -1,45 +1,7 @@
 ==== Connector Mixin Patch Audit Summary ====
-Successful: 6
+Successful: 0
 Partial: 0
-Failed: 1
-Success rate: 85.71%        Accuracy: 85.71%
+Failed: 0
+Success rate: NaN%        Accuracy: NaN%
 =============================================
-
-=============== Failed mixins ===============
-org/betterx/betternether/mixin/common/MushroomMixin canStay(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V
-=============================================
-
-Mixin method org/betterx/bclib/mixin/common/shears/PumpkinBlockMixin bclib_isShears(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/Item;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;)Z
-  >> Using org.sinytra.adapter.patch.transformer.operation.unit.ModifyInjectionPoint
-     - Change injection point to Lnet/minecraft/world/item/ItemStack;canPerformAction(Lnet/neoforged/neoforge/common/ItemAbility;)Z
-  >> Using org.sinytra.adapter.patch.transformer.operation.unit.ModifyMethodParams
-     - Change descriptor to (Lnet/minecraft/world/item/ItemStack;Lnet/neoforged/neoforge/common/ItemAbility;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;)Z
-
-Mixin method org/betterx/bclib/mixin/common/shears/SheepMixin bclib_isShears(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/Item;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;)Z
-  >> Using org.sinytra.adapter.patch.transformer.operation.unit.DisableMixin
-     - Remove mixin method
-
-Mixin method org/betterx/bclib/mixin/common/shears/MushroomCowMixin bclib_isShears(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/Item;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;)Z
-  >> Using org.sinytra.adapter.patch.transformer.operation.unit.DisableMixin
-     - Remove mixin method
-
-Mixin method org/betterx/bclib/mixin/common/shears/TripWireBlockMixin bclib_isShears(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/Item;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;)Z
-  >> Using org.sinytra.adapter.patch.transformer.operation.unit.ModifyInjectionPoint
-     - Change injection point to Lnet/minecraft/world/item/ItemStack;canPerformAction(Lnet/neoforged/neoforge/common/ItemAbility;)Z
-  >> Using org.sinytra.adapter.patch.transformer.operation.unit.ModifyMethodParams
-     - Change descriptor to (Lnet/minecraft/world/item/ItemStack;Lnet/neoforged/neoforge/common/ItemAbility;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;)Z
-
-Mixin method org/betterx/bclib/mixin/common/shears/SnowGolemMixin bclib_isShears(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/Item;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;)Z
-  >> Using org.sinytra.adapter.patch.transformer.operation.unit.DisableMixin
-     - Remove mixin method
-
-Mixin method org/betterx/bclib/mixin/common/AnvilMenuMixin bcl_onDamageAnvil(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V
-  >> Using org.sinytra.adapter.patch.transformer.operation.param.TransformParameters
-     - Change descriptor to (Lnet/minecraft/world/entity/player/Player;FLnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V
-
-Mixin method org/betterx/betternether/mixin/common/piglin/PiglinAiMixin bn_isWearingGold(Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;)Z
-  >> Using org.sinytra.adapter.patch.transformer.operation.unit.ModifyInjectionPoint
-     - Change injection point to Lnet/minecraft/world/item/ItemStack;makesPiglinsNeutral(Lnet/minecraft/world/entity/LivingEntity;)Z
-  >> Using org.sinytra.adapter.patch.transformer.operation.param.TransformParameters
-     - Change descriptor to (Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;)Z
 
