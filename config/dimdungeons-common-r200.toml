@@ -70,15 +70,15 @@
 #Settings for Theme 4
 [dungeonTheme4]
 	themeEntrances4 = [["rainmachineryisles:create_entrance_1"], ["rainmachineryisles:create_entrance_2"]]
-	themeFourways4 = [["rainmachineryisles:create_fourway_1"]]
-	themeThreeways4 = [["rainmachineryisles:create_fourway_1"]]
-	themeHallways4 = [["rainmachineryisles:create_fourway_1"]]
-	themeCorners4 = [["rainmachineryisles:create_fourway_1"]]
-	themeEnds4 = [["rainmachineryisles:create_fourway_1"]]
+	themeFourways4 = [["rainmachineryisles:create_fourway_1"], ["rainmachineryisles:create_fourway_2"], ["rainmachineryisles:create_fourway_3"]]
+	themeThreeways4 = [["rainmachineryisles:create_threeway_1"], ["rainmachineryisles:create_threeway_2"], ["rainmachineryisles:create_threeway_3"]]
+	themeHallways4 = [["rainmachineryisles:create_hallway_1"]]
+	themeCorners4 = [["rainmachineryisles:create_hallway_1"]]
+	themeEnds4 = [["rainmachineryisles:create_hallway_1"]]
 	themeEnemySet1_4 = ["minecraft:zombie", "minecraft:husk", "minecraft:drowned", "minecraft:spider"]
 	themeEnemySet2_4 = ["minecraft:wither_skeleton", "minecraft:stray", "minecraft:skeleton", "minecraft:pillager"]
 	themeEnemyHealthScaling4 = 1.0
-	themeDungeonSize4 = 14
+	themeDungeonSize4 = 26
 
 #Settings for Theme 5
 [dungeonTheme5]
