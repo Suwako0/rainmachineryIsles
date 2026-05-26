@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:flat_cache",
+    "argument": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "skylands_over_the_sea:continents/vanilla",
+        "points": [
+          {
+            "location": -1.5,
+            "derivative": 0,
+            "value": -1.5
+          },
+          {
+            "location": -0.2,
+            "derivative": 0,
+            "value": -1.05
+          },
+          {
+            "location": -0.2,
+            "derivative": 0,
+            "value": -0.05
+          },
+          {
+            "location": 0.1,
+            "derivative": 0,
+            "value": 0.25
+          },
+          {
+            "location": 0.4,
+            "derivative": 0,
+            "value": 0.5
+          },
+          {
+            "location": 0.8,
+            "derivative": 0,
+            "value": 0.75
+          },
+          {
+            "location": 1.5,
+            "derivative": 0,
+            "value": 1.5
+          }
+        ]
+      }
+    }
+  }
+}
