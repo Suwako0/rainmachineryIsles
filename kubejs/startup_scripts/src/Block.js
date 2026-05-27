@@ -1,5 +1,6 @@
 StartupEvents.registry("block", e => {
-    e.create("andesite_original_ore_rock") // 关键修改：删除了后面的 "basic"
+    e.create("andesite_original_ore_rock")
     .soundType('amethyst')
     .unbreakable()
+    .lightLevel(7 / 15.0)
 })

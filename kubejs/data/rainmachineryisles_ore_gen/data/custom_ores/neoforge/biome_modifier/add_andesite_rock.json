@@ -1,0 +1,32 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:cherry_grove",
+    "minecraft:forest",
+    "minecraft:taiga",
+    "minecraft:windswept_forest",
+    "minecraft:snowy_taiga",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    "minecraft:flower_forest",
+    "minecraft:birch_forest",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:dark_forest",
+    "biomeswevegone:jacaranda_jungle",
+    "biomeswevegone:aspen_boreal",
+    "biomeswevegone:fragment_jungle",
+    "biomeswevegone:ebony_woods",
+    "biomeswevegone:sakura_grove",
+    "biomeswevegone:black_forest",
+    "biomeswevegone:weeping_witch_forest",
+    "biomeswevegone:frosted_coniferous_forest",
+    "biomeswevegone:forgotten_forest",
+    "biomeswevegone:zelkova_forest",
+    "biomeswevegone:cika_woods",
+    "biomeswevegone:coniferous_forest",
+    "biomeswevegone:allium_shrubland",
+    "biomeswevegone:maple_taiga"
+  ],
+  "features": "custom_ores:andesite_rock",
+  "step": "vegetal_decoration"
+}
