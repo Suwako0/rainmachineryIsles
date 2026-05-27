@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"dimdungeons:item_portal_key"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"dimdungeons:item_blank_advanced_key"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
