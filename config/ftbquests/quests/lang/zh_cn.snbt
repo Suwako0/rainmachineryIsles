@@ -2,6 +2,16 @@
 	chapter.3FE166DB82846524.title: "雨机岛链"
 	quest.02DCE47C7EAEADE7.quest_desc: ["机械动力基础工作流搭建"]
 	quest.02DCE47C7EAEADE7.title: "齿轮上的宇宙"
+	quest.34C7813229535028.quest_desc: [
+		"&6浮空岛的矿石、岩石资源较为匮乏，但是调查结果显示特定生物群系的地表可能生成一种微量的“原初矿石”，这种原初矿石的硬度极大，无法取走或搬运，但是似乎可以利用这种原初矿石源源不断地获取资源。"
+		"*使用镐类工具左键挖掘原初矿石，可能筛选获取矿石掉落物。"
+		"*挖掘原初矿石的工作似乎只可以在雨天进行，然而神之手的力量是绝对的。"
+		"*虽然这类原初矿石硬度极大，但是似乎使用*重锤*敲击可以将其破坏，某些时候可能也得破坏它们吧...&r"
+		""
+		"安山原初矿石：生成于各类森林群系"
+		""
+		"{image:kubejs:textures/quest/quest_img1.png width:200 height:120 align:center}"
+	]
 	quest.3B61D9650E9D51D7.quest_desc: ["用于防身"]
 	quest.3B61D9650E9D51D7.title: "起枪"
 	quest.3F6903C3E6AE602B.quest_desc: [
@@ -16,4 +26,5 @@
 	task.2BA4B2E82C363FFC.title: "安山时代"
 	task.5662F07C1689F630.title: "旅途之始"
 	task.5B985E0F36739B20.title: "石器时代"
+	task.63CE5CA074EFD10B.title: "原初矿石"
 }
