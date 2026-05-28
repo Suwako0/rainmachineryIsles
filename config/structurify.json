@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.17",
-  "config_datetime": "2026-01-30_16-42-41",
+  "config_datetime": "2026-05-28_16-24-56",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -8,15 +8,6 @@
     "global_spacing_and_separation_modifier": 1.0
   },
   "structure_namespaces": [],
-  "structures": [
-    {
-      "name": "minecraft:trial_chambers",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "underground_structures",
-      "terrain_adaptation": "encapsulate"
-    }
-  ],
+  "structures": [],
   "structure_sets": []
 }
