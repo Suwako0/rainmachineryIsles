@@ -1,6 +1,6 @@
 {
   "type": "neoforge:add_features",
   "biomes": "#minecraft:is_overworld",
-  "features": "custom_ores:andesite_rock",
+  "features": "custom_ores:iron_ore_rock",
   "step": "vegetal_decoration"
 }

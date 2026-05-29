@@ -1,9 +1,9 @@
 {
-  "feature": "custom_ores:andesite_rock",
+  "feature": "custom_ores:iron_ore_rock",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
-      "chance": 64
+      "chance": 60
     },
     {
       "type": "minecraft:in_square"
@@ -17,10 +17,10 @@
       "height": {
         "type": "minecraft:uniform",
         "min_inclusive": {
-          "absolute": 64
+          "absolute": 80
         },
         "max_inclusive": {
-          "absolute": 180
+          "absolute": 200
         }
       }
     },
