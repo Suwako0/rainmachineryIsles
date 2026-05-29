@@ -3,4 +3,9 @@ StartupEvents.registry("block", e => {
     .soundType('amethyst')
     .unbreakable()
     .lightLevel(1.0)
+
+    e.create("iron_original_ore_rock")
+    .soundType('amethyst')
+    .unbreakable()
+    .lightLevel(1.0)
 })
