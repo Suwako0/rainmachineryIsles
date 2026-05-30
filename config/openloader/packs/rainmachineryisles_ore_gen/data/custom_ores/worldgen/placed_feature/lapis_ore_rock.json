@@ -1,0 +1,64 @@
+{
+  "feature": "custom_ores:lapis_ore_rock",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 3
+    },
+    {
+      "type": "minecraft:count",
+      "count": 50
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 78
+        },
+        "max_inclusive": {
+          "absolute": 290
+        }
+      }
+    },
+    {
+      "type": "minecraft:surface_relative_threshold_filter",
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+      "min_inclusive": 0,
+      "max_inclusive": 0
+    },
+    {
+      "type": "minecraft:environment_scan",
+      "direction_of_search": "down",
+      "max_steps": 2,
+      "target_condition": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:grass_block",
+          "minecraft:dirt",
+          "minecraft:podzol",
+          "minecraft:mycelium",
+          "minecraft:stone",
+          "minecraft:moss_block",
+          "minecraft:snow_block",
+          "minecraft:rooted_dirt",
+          "minecraft:mossy_cobblestone",
+          "minecraft:sand",
+          "biomeswevegone:rocky_stone",
+          "biomeswevegone:white_sand",
+          "biomeswevegone:white_dacite_cobblestone",
+          "biomeswevegone:white_podzol_dacite",
+          "biomeswevegone:podzol_dacite",
+          "biomeswevegone:white_overgrown_dacite",
+          "biomeswevegone:lush_grass_block"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -3,26 +3,32 @@
   "placement": [
     {
       "type": "minecraft:rarity_filter",
-      "chance": 64
+      "chance": 4
+    },
+    {
+      "type": "minecraft:count",
+      "count": 10
     },
     {
       "type": "minecraft:in_square"
-    },
-    {
-      "type": "minecraft:heightmap",
-      "heightmap": "MOTION_BLOCKING_NO_LEAVES"
     },
     {
       "type": "minecraft:height_range",
       "height": {
         "type": "minecraft:uniform",
         "min_inclusive": {
-          "absolute": 64
+          "absolute": 120
         },
         "max_inclusive": {
-          "absolute": 180
+          "absolute": 250
         }
       }
+    },
+    {
+      "type": "minecraft:surface_relative_threshold_filter",
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+      "min_inclusive": 0,
+      "max_inclusive": 0
     },
     {
       "type": "minecraft:environment_scan",
@@ -45,7 +51,7 @@
           "biomeswevegone:white_sand",
           "biomeswevegone:white_dacite_cobblestone",
           "biomeswevegone:white_podzol_dacite",
-          "biomeswevegone:white_podzol_dacite"
+          "biomeswevegone:podzol_dacite"
         ]
       }
     },

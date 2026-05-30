@@ -9,9 +9,14 @@
 		"*挖掘原初矿石的工作似乎只可以在雨天进行，然而神之手的力量是绝对的。"
 		"*虽然这类原初矿石硬度极大，但是似乎使用*重锤*敲击可以将其破坏，某些时候可能也得破坏它们吧...&r"
 		""
-		"原初安山岩石：生成于Y=64~180的地表"
+		"原初安山岩石：生成于Y=120~250的地表"
 		"{image:kubejs:textures/quest/quest_img1.png width:200 height:120 align:center}"
-		"原初铁矿石：生成于Y=80~200的地表"
+		"原初铁矿石：生成于Y=90~210的地表"
+		"{image:kubejs:textures/quest/quest_img2.png width:200 height:120 align:center}"
+		"原初铜矿石：生成于Y=64~180的地表"
+		"{image:kubejs:textures/quest/quest_img3.png width:200 height:120 align:center}"
+		"原初锌矿石：生成于海底"
+		"{image:kubejs:textures/quest/quest_img4.png width:200 height:120 align:center}"
 	]
 	quest.3B61D9650E9D51D7.quest_desc: ["用于防身"]
 	quest.3B61D9650E9D51D7.title: "起枪"

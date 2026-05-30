@@ -1,7 +1,10 @@
 // 定义矿石配置列表：包含方块ID、触发概率、掉落物ID
 const ORE_CONFIG = {
     'kubejs:andesite_original_ore_rock': { chance: 0.25, drop: 'kubejs:andesite_dust' },
-    'kubejs:iron_original_ore_rock':     { chance: 0.2,  drop: 'kubejs:iron_ore_dust' }
+    'kubejs:iron_original_ore_rock':     { chance: 0.2,  drop: 'kubejs:iron_ore_dust' },
+    'kubejs:copper_original_ore_rock':     { chance: 0.2,  drop: 'kubejs:copper_ore_dust' },
+    'kubejs:zinc_original_ore_rock':     { chance: 0.2,  drop: 'kubejs:zinc_ore_dust' },
+    'kubejs:lapis_original_ore_rock':     { chance: 0.2,  drop: 'kubejs:lapis_ore_dust' }
 };
 
 // 获取所有配置的矿石ID列表，用于事件监听注册
