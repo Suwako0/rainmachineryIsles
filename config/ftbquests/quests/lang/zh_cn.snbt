@@ -1,8 +1,14 @@
 {
 	chapter.3FE166DB82846524.title: "雨机岛链"
+	chapter.5647CCED0438D1E2.title: "生态花园"
 	chapter.64EBC85990650BEA.title: "生活改善"
-	quest.02DCE47C7EAEADE7.quest_desc: ["机械动力基础工作流搭建"]
+	quest.02DCE47C7EAEADE7.quest_desc: [
+		"机械动力基础工作流搭建"
+		""
+		"{image:kubejs:textures/quest/quest_img6.png width:150 height:150 align:center}"
+	]
 	quest.02DCE47C7EAEADE7.title: "齿轮上的宇宙"
+	quest.0D4761FC0298B4CA.quest_desc: ["物品堆叠上限已提高"]
 	quest.34C7813229535028.quest_desc: [
 		"&6浮空岛的矿石、岩石资源较为匮乏，但是调查结果显示浮岛的地表可能生成一种微量的“原初矿石”，这种原初矿石的硬度极大，无法取走或搬运，但是似乎可以利用这种原初矿石源源不断地获取资源。"
 		"*使用镐类工具左键挖掘原初矿石，可能筛选获取矿石掉落物。"
@@ -17,6 +23,8 @@
 		"{image:kubejs:textures/quest/quest_img3.png width:200 height:120 align:center}"
 		"原初锌矿石：生成于海底"
 		"{image:kubejs:textures/quest/quest_img4.png width:200 height:120 align:center}"
+		"原初青金矿石：生成与天际河谷群系"
+		"{image:kubejs:textures/quest/quest_img5.png width:200 height:120 align:center}"
 	]
 	quest.3B61D9650E9D51D7.quest_desc: ["用于防身"]
 	quest.3B61D9650E9D51D7.title: "起枪"
@@ -29,8 +37,13 @@
 	]
 	quest.3F6903C3E6AE602B.quest_subtitle: "欢迎游玩雨械岛链整合包"
 	quest.3F6903C3E6AE602B.title: "简介"
+	quest.4D2AA721D02D0F67.quest_desc: ["&a使用自然保护区动物产出的物品兑换生态币，以兑换整合包中诸多道具。&r"]
+	quest.66A8A34342A09504.quest_desc: ["默认键位为F6进入/取消灵魂出窍状态"]
 	task.2BA4B2E82C363FFC.title: "安山时代"
+	task.3501D5C0A5E74429.title: "灵魂出窍"
+	task.550A1813BB88BFD2.title: "生态币兑换"
 	task.5662F07C1689F630.title: "旅途之始"
 	task.5B985E0F36739B20.title: "石器时代"
 	task.63CE5CA074EFD10B.title: "原初矿石"
+	task.79534F8142C10C81.title: "堆叠升级"
 }

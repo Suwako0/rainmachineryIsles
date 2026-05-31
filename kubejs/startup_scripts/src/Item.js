@@ -9,4 +9,8 @@ StartupEvents.registry("item", e => {
     e.create('zinc_ore_dust')
     //青金粉屑
     e.create('lapis_ore_dust')
+    //枪械图纸
+    e.create('gun_parts')
+    //生态币
+    e.create('environment_coin')
 })

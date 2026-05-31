@@ -1,0 +1,719 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5647CCED0438D1E2"
+	group: ""
+	id: "5647CCED0438D1E2"
+	images: [{
+		height: 6.5d
+		image: "create:block/crafter_side"
+		rotation: 0.0d
+		width: 6.5d
+		x: -2.5d
+		y: -2.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			id: "311711A8F7591850"
+			rewards: [{
+				count: 26
+				id: "418EA120A3CC5B16"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "69D15475FD9211DC"
+				item: { count: 1, id: "ecologicalgarden:deer_horn" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			id: "4F3009C30170317A"
+			rewards: [{
+				count: 45
+				id: "2266CD37367AE7BD"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5786176D1139235A"
+				item: { count: 1, id: "ecologicalgarden:marmot_grass_seed" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			id: "06BB6E5C81C58DB8"
+			rewards: [{
+				count: 68
+				id: "36B119A51DA98136"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0020EDF6286901BA"
+				item: { count: 1, id: "ecologicalgarden:wombat_cube_feces" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			id: "0E11232CFCB3D0E8"
+			rewards: [{
+				count: 27
+				id: "0D22CD1D93B4ADE0"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "194D2A3786226617"
+				item: { count: 1, id: "ecologicalgarden:alaskan_malamute_coarse_fur" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			id: "2A9A909CA55A05B3"
+			rewards: [{
+				count: 83
+				id: "46DE2BF9ECE09A8A"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "286B977F3224028B"
+				item: { count: 1, id: "ecologicalgarden:arctic_fox_fur" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			id: "644D907110F66B97"
+			rewards: [{
+				count: 38
+				id: "5276D78339E3117D"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "36D63045E45482A9"
+				item: { count: 1, id: "ecologicalgarden:bamboo_rat_chewed_fibers" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			id: "153016E464AD92BB"
+			rewards: [{
+				count: 31
+				id: "54881413251C2EA1"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "306882604201106E"
+				item: { count: 1, id: "ecologicalgarden:capybara_skin_secretion" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			id: "2369F8558E1CD90C"
+			rewards: [{
+				count: 165
+				id: "6F35005B9241C01B"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "52A65DA922ACC0AA"
+				item: { count: 1, id: "ecologicalgarden:fennec_fox_ear_fur" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			id: "10C10465F1BB2FAB"
+			rewards: [{
+				count: 82
+				id: "540E3A69B43262E3"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "35462B5675205578"
+				item: { count: 1, id: "ecologicalgarden:ferret_fur" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			id: "1FACE169BDF149B7"
+			optional: true
+			rewards: [{
+				count: 45
+				id: "577C82A5A67F4E75"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "07766D4D67595D37"
+				item: { count: 1, id: "ecologicalgarden:gerbil_drought_seed" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			id: "10BA504890F0A366"
+			rewards: [{
+				count: 9
+				id: "18F4A0BDBF030438"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "11E99A43C49DBD56"
+				item: { count: 1, id: "ecologicalgarden:golden_gradient_cat_fur_ball" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			id: "0E283A529C772E53"
+			rewards: [{
+				count: 35
+				id: "41F789E19E642F2A"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5D2AED01C3927D65"
+				item: { count: 1, id: "ecologicalgarden:guinea_pig_fur" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			id: "24A3458A61753B48"
+			rewards: [{
+				count: 42
+				id: "3A4597A37AD132B9"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "361C5596E5A87D3C"
+				item: { count: 1, id: "ecologicalgarden:hedgehog_soft_spine_molting" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "3212A6E13426900E"
+			rewards: [{
+				count: 125
+				id: "5B1021D20C749A32"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "320F69205BAB13CE"
+				item: { count: 1, id: "ecologicalgarden:ivory" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "0A3E95F209A9AE2E"
+			rewards: [{
+				count: 18
+				id: "576AEC36C3527299"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4BFF302FFC6E7F87"
+				item: { count: 1, id: "ecologicalgarden:keur_duck_egg" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "0023536D1B8AF8EB"
+			rewards: [{
+				count: 62
+				id: "3E70F0D22A5EDFB9"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7DEF0F8B2C5BAD75"
+				item: { count: 1, id: "ecologicalgarden:koala_eucalyptus_residue" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "2B326153FA027475"
+			rewards: [{
+				count: 215
+				id: "3E82D3F63CD5FA9E"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "02FD1F4EF6ECF25C"
+				item: { count: 1, id: "ecologicalgarden:lion_mane_fluff" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "4A58253B5ADA3727"
+			rewards: [{
+				count: 28
+				id: "73D590BDADCE9B0B"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "49EA0CC91FD662E7"
+				item: { count: 1, id: "ecologicalgarden:lop_eared_rabbit_down" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "3833F9101E613159"
+			rewards: [{
+				count: 184
+				id: "3B4E25C05ED668F6"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2762139DA4DF9EB9"
+				item: { count: 1, id: "ecologicalgarden:panda_feces" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "3B086E151EA96341"
+			rewards: [{
+				count: 62
+				id: "20073E5603DAE0DA"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "53D1F7D82D45E1E2"
+				item: { count: 1, id: "ecologicalgarden:peacock_feather" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "04854AFA67C787C5"
+			rewards: [{
+				count: 46
+				id: "4AE502DE1AA48E37"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5DDBE606EAA49835"
+				item: { count: 1, id: "ecologicalgarden:penguin_feather" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "4661BC75398EE848"
+			rewards: [{
+				count: 83
+				id: "08B68A86F48BFEC5"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1D3FFDDF3DCF41D8"
+				item: { count: 1, id: "ecologicalgarden:raccoon_dog_tail" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "2F7900F29E8CC463"
+			rewards: [{
+				count: 38
+				id: "028715A118515AEF"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4745C88D337E69B8"
+				item: { count: 1, id: "ecologicalgarden:raccoon_shining_stone" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "1844B4FA00146325"
+			rewards: [{
+				count: 184
+				id: "012B21B73ADA4500"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "090B71A09A17E67F"
+				item: { count: 1, id: "ecologicalgarden:red_fox_tail_hair" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "214B23473BBC5932"
+			rewards: [{
+				count: 68
+				id: "267D3B5E8D15E08F"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "519555B4FC087373"
+				item: { count: 1, id: "ecologicalgarden:sand_cat_paw_dander" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "74DC0EDEF503590F"
+			rewards: [{
+				count: 24
+				id: "16A9B8C413D7C475"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2DE7769B2E03BBC6"
+				item: { count: 1, id: "ecologicalgarden:snow_hare_winter_fur" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "7DC781FCAEAA4787"
+			rewards: [{
+				count: 208
+				id: "434A8CB2466675F9"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "37C3C9DF8A49F782"
+				item: { count: 1, id: "ecologicalgarden:tiger_whiskers" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "78135D454D4F34E4"
+			rewards: [{
+				count: 165
+				id: "0020C9CFD8829C45"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "097E42075AD322F3"
+				item: { count: 1, id: "ecologicalgarden:polar_bear_fur" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "473B0A2296576236"
+			rewards: [{
+				count: 65
+				id: "028C121FF55F3041"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "79F8707EBF015C2A"
+				item: { count: 1, id: "ecologicalgarden:wolf_fur" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "7B79412226709E3A"
+			rewards: [{
+				count: 52
+				id: "41921785CBB13673"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "457EC410F8F61594"
+				item: { count: 1, id: "ecologicalgarden:cow_hoof" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "17BB86BDF263B1B3"
+			rewards: [{
+				count: 18
+				id: "19213D1B9A3A6AFA"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3BF60454CCB44C4F"
+				item: { count: 1, id: "ecologicalgarden:pig_fur" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			id: "596642C2FDDF5570"
+			rewards: [{
+				count: 82
+				id: "38442ADF78D9469B"
+				item: {
+					count: 1
+					id: "kubejs:environment_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "07B7C18D969DCF24"
+				item: { count: 1, id: "ecologicalgarden:sugar_glider_nectar_jar" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			icon: {
+				id: "kubejs:environment_coin"
+			}
+			id: "4D2AA721D02D0F67"
+			rewards: [
+				{
+					id: "12692706C27A3385"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 20
+					id: "68CB83C1C4C2CBB1"
+					item: {
+						count: 1
+						id: "kubejs:environment_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "550A1813BB88BFD2"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+	]
+}

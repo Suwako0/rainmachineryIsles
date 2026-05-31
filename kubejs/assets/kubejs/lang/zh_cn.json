@@ -8,5 +8,10 @@
     "block.kubejs.zinc_original_ore_rock":"原初锌矿石",
     "item.kubejs.zinc_ore_dust":"粗锌粉屑",
     "block.kubejs.lapis_original_ore_rock":"原初青金矿石",
-    "item.kubejs.lapis_ore_dust":"青金粉屑"
+    "item.kubejs.lapis_ore_dust":"青金粉屑",
+
+    "item.kubejs.gun_parts":"枪械图纸",
+    "item.kubejs.environment_coin":"生态币",
+
+    "item.ecologicalgarden.peacock_feather":"孔雀羽毛"
 }

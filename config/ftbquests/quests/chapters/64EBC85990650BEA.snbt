@@ -6,5 +6,24 @@
 	id: "64EBC85990650BEA"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "0D4761FC0298B4CA"
+			tasks: [{
+				id: "79534F8142C10C81"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "66A8A34342A09504"
+			tasks: [{
+				id: "3501D5C0A5E74429"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+	]
 }

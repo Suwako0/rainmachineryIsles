@@ -2,16 +2,16 @@
   "type": "cmr:custom_fan",
   "ingredients": [
     {
-      "item": "minecraft:dirt"
+      "item": "minecraft:magma_block"
     },
     {
-      "item": "minecraft:oak_fence"
+      "item": "minecraft:pointed_dripstone"
     }
   ],
   "results": [
     {
       "item": {
-        "id": "minecraft:diamond"
+        "id": "create:ochrum"
       }
     }
   ]
