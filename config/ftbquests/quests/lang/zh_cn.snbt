@@ -9,6 +9,9 @@
 	]
 	quest.02DCE47C7EAEADE7.title: "齿轮上的宇宙"
 	quest.0D4761FC0298B4CA.quest_desc: ["物品堆叠上限已提高"]
+	quest.1201D5EDF8846691.title: "QBZ191 突击步枪"
+	quest.2132FCA80C0364A0.title: "兑换 枪械图纸"
+	quest.293C709FF6CFFC31.quest_desc: [" 默认按Alt+Y选择模型，按Y触发模型动作。"]
 	quest.34C7813229535028.quest_desc: [
 		"&6浮空岛的矿石、岩石资源较为匮乏，但是调查结果显示浮岛的地表可能生成一种微量的“原初矿石”，这种原初矿石的硬度极大，无法取走或搬运，但是似乎可以利用这种原初矿石源源不断地获取资源。"
 		"*使用镐类工具左键挖掘原初矿石，可能筛选获取矿石掉落物。"
@@ -40,6 +43,7 @@
 	quest.4D2AA721D02D0F67.quest_desc: ["&a使用自然保护区动物产出的物品兑换生态币，以兑换整合包中诸多道具。&r"]
 	quest.66A8A34342A09504.quest_desc: ["默认键位为F6进入/取消灵魂出窍状态"]
 	task.2BA4B2E82C363FFC.title: "安山时代"
+	task.2EE9B3AB7DACAFFC.title: "是！史蒂夫模型"
 	task.3501D5C0A5E74429.title: "灵魂出窍"
 	task.550A1813BB88BFD2.title: "生态币兑换"
 	task.5662F07C1689F630.title: "旅途之始"

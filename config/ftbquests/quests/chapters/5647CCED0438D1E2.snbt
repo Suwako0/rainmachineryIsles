@@ -715,5 +715,339 @@
 			x: -2.5d
 			y: -5.5d
 		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						GunCurrentAmmoCount: 30
+						GunFireMode: "AUTO"
+						GunId: "1001:mk18"
+						HasBulletInBarrel: 1b
+					}
+				}
+				id: "tacz:modern_kinetic_gun"
+			}
+			id: "0FB5D2F66403DD4C"
+			rewards: [{
+				id: "35F451F656FFFBD8"
+				item: {
+					components: {
+						"minecraft:custom_data": {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "AUTO"
+							GunId: "1001:mk18"
+							HasBulletInBarrel: 1b
+						}
+					}
+					count: 1
+					id: "tacz:modern_kinetic_gun"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "6FF22D07FC16E60F"
+					item: { components: { "minecraft:custom_data": { GunCurrentAmmoCount: 30, GunFireMode: "AUTO", GunId: "tacz:ak47", HasBulletInBarrel: 1b } }, count: 1, id: "tacz:modern_kinetic_gun" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 66L
+					id: "4FC2CD17AD0BC2C9"
+					item: { count: 1, id: "kubejs:environment_coin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "4408ED4B134FD7CF"
+					item: { count: 1, id: "create:electron_tube" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "16D20C3CBBE594A2"
+					item: { count: 1, id: "northstar:martian_steel" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						GunCurrentAmmoCount: 10
+						GunFireMode: "SEMI"
+						GunId: "1001:mk14ebr"
+						HasBulletInBarrel: 1b
+					}
+				}
+				id: "tacz:modern_kinetic_gun"
+			}
+			id: "3AE2D771EAA99D07"
+			rewards: [{
+				id: "0B88F8F9A89B3EE0"
+				item: {
+					components: {
+						"minecraft:custom_data": {
+							GunCurrentAmmoCount: 10
+							GunFireMode: "SEMI"
+							GunId: "1001:mk14ebr"
+							HasBulletInBarrel: 1b
+						}
+					}
+					count: 1
+					id: "tacz:modern_kinetic_gun"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "5A43FB3B5C4E0AA8"
+					item: { components: { "minecraft:custom_data": { GunCurrentAmmoCount: 10, GunFireMode: "SEMI", GunId: "tacz:mk14", HasBulletInBarrel: 1b } }, count: 1, id: "tacz:modern_kinetic_gun" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 66L
+					id: "0D01335C0162FE2F"
+					item: { count: 1, id: "kubejs:environment_coin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "4BAB9C877B6054A3"
+					item: { count: 1, id: "create:electron_tube" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "5E8045707C08F402"
+					item: { count: 1, id: "northstar:martian_steel" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						GunCurrentAmmoCount: 30
+						GunFireMode: "AUTO"
+						GunId: "1001:lyr"
+						HasBulletInBarrel: 1b
+					}
+				}
+				id: "tacz:modern_kinetic_gun"
+			}
+			id: "1201D5EDF8846691"
+			rewards: [{
+				id: "6ADFB79271CA9AFF"
+				item: {
+					components: {
+						"minecraft:custom_data": {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "AUTO"
+							GunId: "1001:lyr"
+							HasBulletInBarrel: 1b
+						}
+					}
+					count: 1
+					id: "tacz:modern_kinetic_gun"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "534FEF40902E385E"
+					item: { components: { "minecraft:custom_data": { GunCurrentAmmoCount: 30, GunFireMode: "AUTO", GunId: "tacz:qbz_95", HasBulletInBarrel: 1b } }, count: 1, id: "tacz:modern_kinetic_gun" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 66L
+					id: "70474326B5DC67A6"
+					item: { count: 1, id: "kubejs:environment_coin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "04BF10E9A853CB45"
+					item: { count: 1, id: "create:electron_tube" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "17CEEA9030FA7CA7"
+					item: { count: 1, id: "northstar:titanium_ingot" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						GunCurrentAmmoCount: 30
+						GunFireMode: "AUTO"
+						GunId: "1001:vector9"
+						HasBulletInBarrel: 1b
+					}
+				}
+				id: "tacz:modern_kinetic_gun"
+			}
+			id: "4800F4AD8C773B6F"
+			rewards: [{
+				id: "281B3C3EE96175CC"
+				item: {
+					components: {
+						"minecraft:custom_data": {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "AUTO"
+							GunId: "1001:vector9"
+							HasBulletInBarrel: 1b
+						}
+					}
+					count: 1
+					id: "tacz:modern_kinetic_gun"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "1324359C91D51998"
+					item: { components: { "minecraft:custom_data": { GunCurrentAmmoCount: 20, GunFireMode: "AUTO", GunId: "tacz:vector45", HasBulletInBarrel: 1b } }, count: 1, id: "tacz:modern_kinetic_gun" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 66L
+					id: "57CCC2E84FE336E9"
+					item: { count: 1, id: "kubejs:environment_coin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "61F6815884D0DFEC"
+					item: { count: 1, id: "create:electron_tube" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "47E3C15A1B7CC1AA"
+					item: { count: 1, id: "northstar:titanium_ingot" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						GunCurrentAmmoCount: 75
+						GunFireMode: "AUTO"
+						GunId: "1001:m249"
+						HasBulletInBarrel: 1b
+					}
+				}
+				id: "tacz:modern_kinetic_gun"
+			}
+			id: "537A90776752862D"
+			rewards: [{
+				id: "60233C7B86D6D8CE"
+				item: {
+					components: {
+						"minecraft:custom_data": {
+							GunCurrentAmmoCount: 75
+							GunFireMode: "AUTO"
+							GunId: "1001:m249"
+							HasBulletInBarrel: 1b
+						}
+					}
+					count: 1
+					id: "tacz:modern_kinetic_gun"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "0AADA50A2E6D0D48"
+					item: { components: { "minecraft:custom_data": { GunCurrentAmmoCount: 75, GunFireMode: "AUTO", GunId: "tacz:m249", HasBulletInBarrel: 1b } }, count: 1, id: "tacz:modern_kinetic_gun" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 66L
+					id: "38106CFFCCF9DBA5"
+					item: { count: 1, id: "kubejs:environment_coin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "77B38B08F337C117"
+					item: { count: 1, id: "create:electron_tube" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "2147AE1CCD17CB35"
+					item: { count: 1, id: "northstar:tungsten_ingot" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "kubejs:gun_parts"
+			}
+			id: "2132FCA80C0364A0"
+			rewards: [{
+				id: "00A2D947A7821FA9"
+				item: {
+					count: 1
+					id: "kubejs:gun_parts"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 500L
+				id: "6F72E5552C5D78A3"
+				item: { count: 1, id: "kubejs:environment_coin" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
 	]
 }

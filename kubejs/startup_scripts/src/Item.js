@@ -12,5 +12,7 @@ StartupEvents.registry("item", e => {
     //枪械图纸
     e.create('gun_parts')
     //生态币
+    e.create('bullet_parts')
+    //生态币
     e.create('environment_coin')
 })

@@ -58,6 +58,25 @@
 		{
 			dependencies: ["60E4084C211138D9"]
 			id: "3B61D9650E9D51D7"
+			rewards: [
+				{
+					count: 2
+					id: "60A51DA0961782AB"
+					item: {
+						count: 1
+						id: "kubejs:bullet_parts"
+					}
+					type: "item"
+				}
+				{
+					id: "4D04CB5C68C019B0"
+					item: {
+						count: 1
+						id: "kubejs:gun_parts"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "0A3C683AB4A4D14B"

@@ -3,7 +3,7 @@ ServerEvents.recipes(event => {
     const gunIds = [];
     event.forEachRecipe({}, r => {
         const id = String(r.getId());
-        if (id.startsWith('tacz:gun/') || id.startsWith('1001:gun/')) {
+        if (id.startsWith('tacz:gun/') || id.startsWith('1001:gun/') || id.startsWith('tacz:ammo/') || id.startsWith('1001:ammo/')) {
             gunIds.push(id);
         }
     });
@@ -1907,4 +1907,671 @@ ServerEvents.recipes(event => {
                 "ammo_count": 0
             }
         })
+    //子弹
+    //4.6X30
+    event.custom({
+        "type": "tacz:gun_smith_table_crafting",
+        "materials": [
+            {
+                "item": {
+                    "item": "minecraft:gunpowder"
+                },
+                "count": 2
+            },
+            {
+                "item": {
+                    "item": "kubejs:bullet_parts"
+                },
+                "count": 1
+            }
+        ],
+        "result": {
+            "type": "ammo",
+            "id": "tacz:46x30",
+            "count": 48,
+            "attachments": {},
+            "ammo_count": 0
+        }
+    })
+    //.22
+    event.custom({
+        "type": "tacz:gun_smith_table_crafting",
+        "materials": [
+            {
+                "item": {
+                    "item": "minecraft:gunpowder"
+                },
+                "count": 2
+            },
+            {
+                "item": {
+                    "item": "kubejs:bullet_parts"
+                },
+                "count": 1
+            }
+        ],
+        "result": {
+            "type": "ammo",
+            "id": "tacz:22wmr",
+            "count": 100,
+            "attachments": {},
+            "ammo_count": 0
+        }
+    })
+    //5.7X28
+    event.custom({
+        "type": "tacz:gun_smith_table_crafting",
+        "materials": [
+            {
+                "item": {
+                    "item": "minecraft:lapis_lazuli"
+                },
+                "count": 1
+            },
+            {
+                "item": {
+                    "item": "minecraft:gunpowder"
+                },
+                "count": 2
+            },
+            {
+                "item": {
+                    "item": "kubejs:bullet_parts"
+                },
+                "count": 1
+            }
+        ],
+        "result": {
+            "type": "ammo",
+            "id": "tacz:57x28",
+            "count": 48,
+            "attachments": {},
+            "ammo_count": 0
+        }
+    })
+    //7.62X25
+    event.custom({
+        "type": "tacz:gun_smith_table_crafting",
+        "materials": [
+            {
+                "item": {
+                    "item": "minecraft:gunpowder"
+                },
+                "count": 2
+            },
+            {
+                "item": {
+                    "item": "kubejs:bullet_parts"
+                },
+                "count": 1
+            }
+        ],
+        "result": {
+            "type": "ammo",
+            "id": "tacz:762x25",
+            "count": 45,
+            "attachments": {},
+            "ammo_count": 0
+        }
+    })
+    //9mm
+    event.custom({
+        "type": "tacz:gun_smith_table_crafting",
+        "materials": [
+            {
+                "item": {
+                    "item": "minecraft:gunpowder"
+                },
+                "count": 2
+            },
+            {
+                "item": {
+                    "item": "kubejs:bullet_parts"
+                },
+                "count": 1
+            }
+        ],
+        "result": {
+            "type": "ammo",
+            "id": "tacz:9mm",
+            "count": 50,
+            "attachments": {},
+            "ammo_count": 0
+        }
+    })
+    //.45
+    event.custom({
+        "type": "tacz:gun_smith_table_crafting",
+        "materials": [
+            {
+                "item": {
+                    "item": "minecraft:gunpowder"
+                },
+                "count": 2
+            },
+            {
+                "item": {
+                    "item": "kubejs:bullet_parts"
+                },
+                "count": 1
+            }
+        ],
+        "result": {
+            "type": "ammo",
+            "id": "tacz:45acp",
+            "count": 30,
+            "attachments": {},
+            "ammo_count": 0
+        }
+    })
+    //5.45X39
+    event.custom({
+        "type": "tacz:gun_smith_table_crafting",
+        "materials": [
+            {
+                "item": {
+                    "item": "minecraft:gunpowder"
+                },
+                "count": 3
+            },
+            {
+                "item": {
+                    "item": "kubejs:bullet_parts"
+                },
+                "count": 2
+            }
+        ],
+        "result": {
+            "type": "ammo",
+            "id": "tacz:545x39",
+            "count": 45,
+            "attachments": {},
+            "ammo_count": 0
+        }
+    })
+    //5.56X45
+    event.custom({
+        "type": "tacz:gun_smith_table_crafting",
+        "materials": [
+            {
+                "item": {
+                    "item": "minecraft:gunpowder"
+                },
+                "count": 3
+            },
+            {
+                "item": {
+                    "item": "kubejs:bullet_parts"
+                },
+                "count": 2
+            }
+        ],
+        "result": {
+            "type": "ammo",
+            "id": "tacz:556x45",
+            "count": 45,
+            "attachments": {},
+            "ammo_count": 0
+        }
+    })
+    //7.62X54
+    event.custom({
+        "type": "tacz:gun_smith_table_crafting",
+        "materials": [
+            {
+                "item": {
+                    "item": "minecraft:gunpowder"
+                },
+                "count": 8
+            },
+            {
+                "item": {
+                    "item": "kubejs:bullet_parts"
+                },
+                "count": 3
+            }
+        ],
+        "result": {
+            "type": "ammo",
+            "id": "tacz:762x54",
+            "count": 60,
+            "attachments": {},
+            "ammo_count": 0
+        }
+    })
+    //8mm
+    event.custom({
+        "type": "tacz:gun_smith_table_crafting",
+        "materials": [
+            {
+                "item": {
+                    "item": "minecraft:gunpowder"
+                },
+                "count": 6
+            },
+            {
+                "item": {
+                    "item": "kubejs:bullet_parts"
+                },
+                "count": 2
+            }
+        ],
+        "result": {
+            "type": "ammo",
+            "id": "tacz:792x57",
+            "count": 24,
+            "attachments": {},
+            "ammo_count": 0
+        }
+    })
+    //7.62X39
+    event.custom({
+        "type": "tacz:gun_smith_table_crafting",
+        "materials": [
+            {
+                "item": {
+                    "item": "minecraft:gunpowder"
+                },
+                "count": 6
+            },
+            {
+                "item": {
+                    "item": "kubejs:bullet_parts"
+                },
+                "count": 2
+            }
+        ],
+        "result": {
+            "type": "ammo",
+            "id": "tacz:762x39",
+            "count": 35,
+            "attachments": {},
+            "ammo_count": 0
+        }
+    })
+    //.308
+    event.custom({
+        "type": "tacz:gun_smith_table_crafting",
+        "materials": [
+            {
+                "item": {
+                    "item": "minecraft:lapis_lazuli"
+                },
+                "count": 10
+            },
+            {
+                "item": {
+                    "item": "minecraft:gunpowder"
+                },
+                "count": 10
+            },
+            {
+                "item": {
+                    "item": "kubejs:bullet_parts"
+                },
+                "count": 3
+            }
+        ],
+        "result": {
+            "type": "ammo",
+            "id": "tacz:308",
+            "count": 60,
+            "attachments": {},
+            "ammo_count": 0
+        }
+    })
+    //5.8X42
+    event.custom({
+        "type": "tacz:gun_smith_table_crafting",
+        "materials": [
+            {
+                "item": {
+                    "item": "minecraft:gunpowder"
+                },
+                "count": 3
+            },
+            {
+                "item": {
+                    "item": "kubejs:bullet_parts"
+                },
+                "count": 1
+            }
+        ],
+        "result": {
+            "type": "ammo",
+            "id": "tacz:58x42",
+            "count": 40,
+            "attachments": {},
+            "ammo_count": 0
+        }
+    })
+    //6.8X51
+    event.custom({
+        "type": "tacz:gun_smith_table_crafting",
+        "materials": [
+            {
+                "item": {
+                    "item": "minecraft:gunpowder"
+                },
+                "count": 3
+            },
+            {
+                "item": {
+                    "item": "kubejs:bullet_parts"
+                },
+                "count": 1
+            }
+        ],
+        "result": {
+            "type": "ammo",
+            "id": "tacz:68x51fury",
+            "count": 40,
+            "attachments": {},
+            "ammo_count": 0
+        }
+    })
+    //.50AE
+    event.custom({
+        "type": "tacz:gun_smith_table_crafting",
+        "materials": [
+            {
+                "item": {
+                    "item": "minecraft:lapis_lazuli"
+                },
+                "count": 5
+            },
+            {
+                "item": {
+                    "item": "minecraft:gunpowder"
+                },
+                "count": 7
+            },
+            {
+                "item": {
+                    "item": "kubejs:bullet_parts"
+                },
+                "count": 3
+            }
+        ],
+        "result": {
+            "type": "ammo",
+            "id": "tacz:50ae",
+            "count": 36,
+            "attachments": {},
+            "ammo_count": 0
+        }
+    })
+    //.50BMG
+    event.custom({
+        "type": "tacz:gun_smith_table_crafting",
+        "materials": [
+            {
+                "item": {
+                    "item": "minecraft:blaze_rod"
+                },
+                "count": 1
+            },
+            {
+                "item": {
+                    "item": "minecraft:lapis_lazuli"
+                },
+                "count": 12
+            },
+            {
+                "item": {
+                    "item": "minecraft:gunpowder"
+                },
+                "count": 20
+            },
+            {
+                "item": {
+                    "item": "kubejs:bullet_parts"
+                },
+                "count": 11
+            }
+        ],
+        "result": {
+            "type": "ammo",
+            "id": "tacz:50bmg",
+            "count": 24,
+            "attachments": {},
+            "ammo_count": 0
+        }
+    })
+    //.500马格南
+    event.custom({
+        "type": "tacz:gun_smith_table_crafting",
+        "materials": [
+            {
+                "item": {
+                    "item": "minecraft:lapis_lazuli"
+                },
+                "count": 5
+            },
+            {
+                "item": {
+                    "item": "minecraft:gunpowder"
+                },
+                "count": 10
+            },
+            {
+                "item": {
+                    "item": "kubejs:bullet_parts"
+                },
+                "count": 4
+            }
+        ],
+        "result": {
+            "type": "ammo",
+            "id": "tacz:500mag",
+            "count": 32,
+            "attachments": {},
+            "ammo_count": 0
+        }
+    })
+    //.357马格南
+    event.custom({
+        "type": "tacz:gun_smith_table_crafting",
+        "materials": [
+            {
+                "item": {
+                    "item": "minecraft:gunpowder"
+                },
+                "count": 6
+            },
+            {
+                "item": {
+                    "item": "kubejs:bullet_parts"
+                },
+                "count": 3
+            }
+        ],
+        "result": {
+            "type": "ammo",
+            "id": "tacz:357mag",
+            "count": 48,
+            "attachments": {},
+            "ammo_count": 0
+        }
+    })
+    //45-70
+    event.custom({
+        "type": "tacz:gun_smith_table_crafting",
+        "materials": [
+            {
+                "item": {
+                    "item": "minecraft:lapis_lazuli"
+                },
+                "count": 5
+            },
+            {
+                "item": {
+                    "item": "minecraft:gunpowder"
+                },
+                "count": 7
+            },
+            {
+                "item": {
+                    "item": "kubejs:bullet_parts"
+                },
+                "count": 3
+            }
+        ],
+        "result": {
+            "type": "ammo",
+            "id": "tacz:45_70",
+            "count": 36,
+            "attachments": {},
+            "ammo_count": 0
+        }
+    })
+    //.30-06
+    event.custom({
+        "type": "tacz:gun_smith_table_crafting",
+        "materials": [
+            {
+                "item": {
+                    "item": "minecraft:gunpowder"
+                },
+                "count": 6
+            },
+            {
+                "item": {
+                    "item": "kubejs:bullet_parts"
+                },
+                "count": 2
+            }
+        ],
+        "result": {
+            "type": "ammo",
+            "id": "tacz:30_06",
+            "count": 24,
+            "attachments": {},
+            "ammo_count": 0
+        }
+    })
+    //.338
+    event.custom({
+        "type": "tacz:gun_smith_table_crafting",
+        "materials": [
+            {
+                "item": {
+                    "item": "minecraft:lapis_lazuli"
+                },
+                "count": 4
+            },
+            {
+                "item": {
+                    "item": "minecraft:gunpowder"
+                },
+                "count": 8
+            },
+            {
+                "item": {
+                    "item": "kubejs:bullet_parts"
+                },
+                "count": 2
+            }
+        ],
+        "result": {
+            "type": "ammo",
+            "id": "tacz:338",
+            "count": 18,
+            "attachments": {},
+            "ammo_count": 0
+        }
+    })
+    //.rpg-7
+    event.custom({
+        "type": "tacz:gun_smith_table_crafting",
+        "materials": [
+            {
+                "item": {
+                    "item": "create:iron_sheet"
+                },
+                "count": 3
+            },
+            {
+                "item": {
+                    "item": "minecraft:gunpowder"
+                },
+                "count": 12
+            },
+            {
+                "item": {
+                    "item": "kubejs:bullet_parts"
+                },
+                "count": 3
+            }
+        ],
+        "result": {
+            "type": "ammo",
+            "id": "tacz:rpg_rocket",
+            "count": 3,
+            "attachments": {},
+            "ammo_count": 0
+        }
+    })
+    //40MM榴弹
+    event.custom({
+        "type": "tacz:gun_smith_table_crafting",
+        "materials": [
+            {
+                "item": {
+                    "item": "create:iron_sheet"
+                },
+                "count": 3
+            },
+            {
+                "item": {
+                    "item": "minecraft:gunpowder"
+                },
+                "count": 9
+            },
+            {
+                "item": {
+                    "item": "kubejs:bullet_parts"
+                },
+                "count": 1
+            }
+        ],
+        "result": {
+            "type": "ammo",
+            "id": "tacz:40mm",
+            "count": 6,
+            "attachments": {},
+            "ammo_count": 0
+        }
+    })
+    //12G
+    event.custom({
+        "type": "tacz:gun_smith_table_crafting",
+        "materials": [
+            {
+                "item": {
+                    "item": "minecraft:iron_nugget"
+                },
+                "count": 18
+            },
+            {
+                "item": {
+                    "item": "minecraft:gunpowder"
+                },
+                "count": 6
+            },
+            {
+                "item": {
+                    "item": "kubejs:bullet_parts"
+                },
+                "count": 1
+            }
+        ],
+        "result": {
+            "type": "ammo",
+            "id": "tacz:12g",
+            "count": 18,
+            "attachments": {},
+            "ammo_count": 0
+        }
+    })
 })
