@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": ["biomeswevegone:skyris_vale"],
+  "features": "custom_ores:lapis_ore_rock",
+  "step": "vegetal_decoration"
+}

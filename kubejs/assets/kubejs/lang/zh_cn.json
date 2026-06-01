@@ -2,5 +2,16 @@
     "block.kubejs.andesite_original_ore_rock":"原初安山岩石",
     "item.kubejs.andesite_dust":"安山粉屑",
     "block.kubejs.iron_original_ore_rock":"原初铁矿石",
-    "item.kubejs.iron_ore_dust":"粗铁粉屑"
+    "item.kubejs.iron_ore_dust":"粗铁粉屑",
+    "block.kubejs.copper_original_ore_rock":"原初铜矿石",
+    "item.kubejs.copper_ore_dust":"粗铜粉屑",
+    "block.kubejs.zinc_original_ore_rock":"原初锌矿石",
+    "item.kubejs.zinc_ore_dust":"粗锌粉屑",
+    "block.kubejs.lapis_original_ore_rock":"原初青金矿石",
+    "item.kubejs.lapis_ore_dust":"青金粉屑",
+
+    "item.kubejs.gun_parts":"枪械图纸",
+    "item.kubejs.environment_coin":"生态币",
+
+    "item.ecologicalgarden.peacock_feather":"孔雀羽毛"
 }

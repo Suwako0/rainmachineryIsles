@@ -16,6 +16,34 @@ ServerEvents.recipes(e =>{
         'AAA',
         'AAA'
     ], {
-        A: 'kubejs:andesite_dust' // 将字母 A 映射为你的自定义安山岩粉
+        A: 'kubejs:andesite_dust'
+    });
+    e.shaped('minecraft:raw_iron', [
+        'AAA',
+        'AAA',
+        'AAA'
+    ], {
+        A: 'kubejs:iron_ore_dust'
+    });
+    e.shaped('minecraft:raw_copper', [
+        'AAA',
+        'AAA',
+        'AAA'
+    ], {
+        A: 'kubejs:copper_ore_dust'
+    });
+    e.shaped('create:raw_zinc', [
+        'AAA',
+        'AAA',
+        'AAA'
+    ], {
+        A: 'kubejs:zinc_ore_dust'
+    });
+    e.shaped('minecraft:lapis_lazuli', [
+        'AAA',
+        'AAA',
+        'AAA'
+    ], {
+        A: 'kubejs:lapis_ore_dust'
     });
 });

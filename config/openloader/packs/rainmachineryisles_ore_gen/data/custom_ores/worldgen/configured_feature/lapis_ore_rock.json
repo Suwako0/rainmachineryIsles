@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 1,
+    "xz_spread": 0,
+    "y_spread": 0,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "kubejs:lapis_original_ore_rock"
+            }
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "offset": [0, 0, 0],
+            "blocks": [
+              "minecraft:grass_block",
+              "minecraft:dirt",
+              "minecraft:podzol",
+              "minecraft:mycelium",
+              "minecraft:stone",
+              "minecraft:moss_block",
+              "minecraft:snow_block",
+              "minecraft:rooted_dirt",
+              "minecraft:mossy_cobblestone",
+              "minecraft:sand",
+              "biomeswevegone:rocky_stone",
+              "biomeswevegone:white_sand",
+              "biomeswevegone:white_dacite_cobblestone",
+              "biomeswevegone:white_podzol_dacite",
+              "biomeswevegone:podzol_dacite",
+              "biomeswevegone:white_overgrown_dacite",
+              "biomeswevegone:lush_grass_block"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
