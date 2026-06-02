@@ -31,7 +31,7 @@
 				id: "3BC347E25592B2D9"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 0.0d
 		}
 		{
@@ -121,6 +121,49 @@
 				type: "checkmark"
 			}]
 			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["60E4084C211138D9"]
+			id: "498E8576EE378E41"
+			tasks: [{
+				id: "700290F1F40C5709"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["498E8576EE378E41"]
+			id: "049CC9206DAB9CC9"
+			tasks: [{
+				id: "26491E0AF2576F7F"
+				item: { count: 1, id: "simulated:physics_assembler" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["498E8576EE378E41"]
+			id: "0180CB955520D588"
+			tasks: [{
+				id: "59D4B10C8D92411E"
+				item: { count: 1, id: "ecologicalgarden:breeding_guide" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["498E8576EE378E41"]
+			id: "0665A5AE6D83F8AB"
+			tasks: [{
+				id: "750082CD44747D06"
+				item: { count: 1, id: "northstar:telescope" }
+				type: "item"
+			}]
+			x: 8.0d
 			y: -2.0d
 		}
 	]
