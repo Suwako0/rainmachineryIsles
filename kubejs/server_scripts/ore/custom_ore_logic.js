@@ -51,7 +51,7 @@ PlayerEvents.tick(e => {
     // 检查准星瞄准的是否在我们的矿石列表内
     if (!ray || !ray.block || !ORE_CONFIG[ray.block.id]) return;
 
-    processMining(player, ray.block, level, server, true);
+    processMining(player, ray.block, level, server, false);
 });
 
 // 使用 ORE_IDS 数组为列表中的所有方块注册左键点击事件
