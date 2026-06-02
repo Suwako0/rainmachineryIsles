@@ -76,6 +76,22 @@
 					}
 					type: "item"
 				}
+				{
+					id: "2CF220EA9AE206E5"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								GunCurrentAmmoCount: 17
+								GunFireMode: "SEMI"
+								GunId: "tacz:glock_17"
+								HasBulletInBarrel: 1b
+							}
+						}
+						count: 1
+						id: "tacz:modern_kinetic_gun"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{

@@ -34,5 +34,22 @@
 			x: 0.0d
 			y: -2.0d
 		}
+		{
+			id: "5E8A8CCB737A4E66"
+			rewards: [{
+				id: "011810C931948194"
+				item: {
+					count: 1
+					id: "torchmaster:megatorch"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "746E1083333FFFEE"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
 	]
 }
