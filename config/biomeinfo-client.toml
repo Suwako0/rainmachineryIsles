@@ -7,7 +7,7 @@ fadeIn = true
 #How long in ticks (20 ticks = 1 second) to display the biome info, if fadeOut = true. If fadeIn = true, the time will be counted from the moment the biome info has finished fading in.
 # Default: 30
 # Range: > 0
-displayTime = 40
+displayTime = 60
 #The X position to display the biome info at.
 # Default: 3
 # Range: > -2147483648

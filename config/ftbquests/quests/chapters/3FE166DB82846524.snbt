@@ -19,10 +19,10 @@
 					type: "item"
 				}
 				{
-					id: "4C080EF84CDB6F71"
+					id: "0FDD1335150F7FA2"
 					item: {
 						count: 1
-						id: "hooked:iron_hook"
+						id: "creatorsword:frogport_grapple"
 					}
 					type: "item"
 				}

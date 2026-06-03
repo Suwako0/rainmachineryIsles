@@ -51,5 +51,32 @@
 			x: -1.0d
 			y: -2.0d
 		}
+		{
+			id: "56CEA377B79FD7DB"
+			tasks: [
+				{
+					id: "5DDE221960FD7016"
+					item: { count: 1, id: "creatorsword:creator_sword" }
+					type: "item"
+				}
+				{
+					id: "61C543AAFDE7698A"
+					item: { count: 1, id: "creatorsword:netherite_creator_sword" }
+					type: "item"
+				}
+				{
+					id: "2A334A5C1DDF5C76"
+					item: { count: 1, id: "creatorsword:frogport_grapple" }
+					type: "item"
+				}
+				{
+					id: "1A814602BFDBF212"
+					item: { count: 1, id: "creatorsword:cogwheel_shield" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.0d
+		}
 	]
 }
