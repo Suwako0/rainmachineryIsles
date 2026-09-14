@@ -1,7 +1,0 @@
-==== Connector Mixin Patch Audit Summary ====
-Successful: 1
-Partial: 0
-Failed: 0
-Success rate: 100.00%        Accuracy: 100.00%
-=============================================
-
