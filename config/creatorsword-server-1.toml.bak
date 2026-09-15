@@ -1,0 +1,31 @@
+#.
+#Frogport Grapple Capture Rules
+#- ruleMode = DEFAULT: use built-in defaults
+#- ruleMode = CUSTOM : read selectors from config lists (level0-3, deny)
+#
+#Selector syntax:
+#  - category:<MobCategory>   e.g. category:MONSTER
+#  - #<tag>                  e.g. #minecraft:bosses
+#  - entity:<id>             e.g. entity:minecraft:zombie
+#
+#Empty [] level list means OTHERS at that level, but Deny always overrides.
+#
+["Frogport Grapple"]
+	#.
+	#.
+	#Rule mode: DEFAULT uses built-in rules; CUSTOM uses config selector lists.
+	#Allowed Values: DEFAULT, CUSTOM
+	captureRuleMode = "DEFAULT"
+	#.
+	#Max tongue reach distance (blocks).
+	# Default: 48
+	# Range: > 1
+	tongueLength = 48
+
+	["Frogport Grapple".custom_rule_lists]
+		#Advanced: edit rules here (GUI may not support list editing well).
+		level0 = ["category:CREATURE", "category:AMBIENT", "category:WATER_CREATURE", "category:WATER_AMBIENT", "category:UNDERGROUND_WATER_CREATURE", "category:AXOLOTLS"]
+		level1 = []
+		level2 = ["category:MONSTER"]
+		level3 = ["entity:minecraft:ender_dragon", "entity:minecraft:wither", "entity:minecraft:warden"]
+		deny = []

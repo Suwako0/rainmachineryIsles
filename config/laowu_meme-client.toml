@@ -1,0 +1,10 @@
+#播放音频「那个那个」(laowu2)
+enableLaowu2 = true
+#播放音频「老吴凄凉」(qiliang)
+enableQiliang = true
+#播放音频「战吼」(zhanhou)
+enableZhanhou = true
+#禁用的导入音频列表（imported:<文件名去掉.ogg>）
+#不在列表里的导入音频都可以随机播放；禁用的不会出现。
+#导入音频放 config/laowu_meme/sounds/*.ogg
+disabledImportedSounds = []

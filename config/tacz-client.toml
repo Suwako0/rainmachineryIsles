@@ -78,6 +78,8 @@
 	# Default: 4
 	# Range: 0 ~ 128
 	HighFrequencySoundConcurrencyLimit = 4
+	#Use a non-relative entity-tracking world sound source for first-person animation keyframe sounds. This can improve compatibility with physical sound mods, but may introduce slight stereo drift while moving.
+	FirstPersonAnimationSoundTracking = false
 
 [Zoom]
 	#Screen distance coefficient for zoom, using MDV standard, default is MDV133

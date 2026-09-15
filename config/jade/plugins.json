@@ -75,6 +75,12 @@
   "yes_steve_model": {
     "model_info": true
   },
+  "betternether": {
+    "plant_growth": true
+  },
+  "betterend": {
+    "plant_growth": true
+  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,
@@ -85,5 +91,11 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
+  },
+  "waystones": {
+    "waystone": true
+  },
+  "balm": {
+    "jade": true
   }
 }

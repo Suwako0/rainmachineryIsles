@@ -1,11 +1,12 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "5647CCED0438D1E2"
+	filename: "5647cced0438d1e2"
 	group: ""
 	id: "5647CCED0438D1E2"
 	images: [{
 		height: 6.5d
+		id: "34E171A4A407E900"
 		image: "create:block/crafter_side"
 		rotation: 0.0d
 		width: 6.5d
@@ -770,7 +771,7 @@
 					consume_items: true
 					count: 2L
 					id: "16D20C3CBBE594A2"
-					item: { count: 1, id: "northstar:martian_steel" }
+					item: { count: 1, id: "northstar:martian_steel_ingot" }
 					type: "item"
 				}
 			]
@@ -832,7 +833,7 @@
 					consume_items: true
 					count: 2L
 					id: "5E8045707C08F402"
-					item: { count: 1, id: "northstar:martian_steel" }
+					item: { count: 1, id: "northstar:martian_steel_ingot" }
 					type: "item"
 				}
 			]

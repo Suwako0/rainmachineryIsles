@@ -21,10 +21,6 @@
 	#--------------------------------------------------------------------------
 	#Enable lightweight analysis outputs, such as packet rank, transport report, bypass rank, and telemetry dumps.
 	debug_analysis = false
-	#
-	#--------------------------------------------------------------------------
-	#Enable heavyweight diagnostic outputs, such as packet jsonl, transport traces, and chunk boundary reports.
-	debug_diagnose = false
 
 #PLAY Batch Optimizer Settings
 [play-batch]
