@@ -5,13 +5,14 @@
 	group: ""
 	id: "5647CCED0438D1E2"
 	images: [{
-		height: 6.5d
+		click_action: "none:"
+		height: 12.0d
 		id: "34E171A4A407E900"
 		image: "create:block/crafter_side"
 		rotation: 0.0d
-		width: 6.5d
+		width: 12.0d
 		x: -2.5d
-		y: -2.0d
+		y: -1.0d
 	}]
 	order_index: 2
 	quest_links: [ ]
@@ -755,7 +756,7 @@
 				}
 				{
 					consume_items: true
-					count: 66L
+					count: 660L
 					id: "4FC2CD17AD0BC2C9"
 					item: { count: 1, id: "kubejs:environment_coin" }
 					type: "item"
@@ -817,7 +818,7 @@
 				}
 				{
 					consume_items: true
-					count: 66L
+					count: 620L
 					id: "0D01335C0162FE2F"
 					item: { count: 1, id: "kubejs:environment_coin" }
 					type: "item"
@@ -879,7 +880,7 @@
 				}
 				{
 					consume_items: true
-					count: 66L
+					count: 635L
 					id: "70474326B5DC67A6"
 					item: { count: 1, id: "kubejs:environment_coin" }
 					type: "item"
@@ -941,7 +942,7 @@
 				}
 				{
 					consume_items: true
-					count: 66L
+					count: 740L
 					id: "57CCC2E84FE336E9"
 					item: { count: 1, id: "kubejs:environment_coin" }
 					type: "item"
@@ -1003,7 +1004,7 @@
 				}
 				{
 					consume_items: true
-					count: 66L
+					count: 765L
 					id: "38106CFFCCF9DBA5"
 					item: { count: 1, id: "kubejs:environment_coin" }
 					type: "item"
@@ -1049,6 +1050,129 @@
 			}]
 			x: 0.0d
 			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:iron_ingot"
+			}
+			id: "2ADE2F3C0F30AB28"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "242AA49CFF6C2A89"
+				table_id: 1168413359128888365L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 25L
+				id: "74D27D3EA117F73C"
+				item: { count: 1, id: "kubejs:environment_coin" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:enchanted_golden_apple"
+			}
+			id: "21B57C152E1682EF"
+			rewards: [{
+				id: "5ABB93A60F7D0512"
+				item: {
+					count: 1
+					id: "minecraft:enchanted_golden_apple"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 700L
+					id: "5410E15E43ADC4C6"
+					item: { count: 1, id: "kubejs:environment_coin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "354DC6D0938193C5"
+					item: { count: 1, id: "minecraft:golden_apple" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:name_tag"
+			}
+			id: "1572873EB0836606"
+			rewards: [{
+				id: "42DB067DD778A536"
+				item: {
+					count: 1
+					id: "minecraft:name_tag"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 50L
+				id: "1FF75A91C02E337D"
+				item: { count: 1, id: "kubejs:environment_coin" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:pink_dye"
+			}
+			id: "1ED32062B0719A14"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AA07181E51E5EC2"
+				table_id: 6322903197217801748L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 50L
+				id: "2FE9313400775929"
+				item: { count: 1, id: "kubejs:environment_coin" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "biomeswevegone:yellow_sakura_sapling"
+			}
+			id: "30408CAA472B240D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75D287D92E5CEB7E"
+				table_id: 3679421311508177661L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 50L
+				id: "750CE5AEDD16F80C"
+				item: { count: 1, id: "kubejs:environment_coin" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
 		}
 	]
 }

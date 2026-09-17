@@ -27,37 +27,82 @@
 					}
 					type: "item"
 				}
+				{
+					count: 2
+					id: "26F37E4A07B1E290"
+					item: {
+						count: 1
+						id: "biomeswevegone:green_apple_pie"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "3BC347E25592B2D9"
 				type: "checkmark"
 			}]
-			x: -1.0d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["3F6903C3E6AE602B"]
-			id: "60E4084C211138D9"
-			tasks: [{
-				id: "5662F07C1689F630"
-				type: "checkmark"
-			}]
-			x: 2.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["60E4084C211138D9"]
+			dependencies: ["7DC0E43B54FCFC8F"]
 			id: "02DCE47C7EAEADE7"
+			rewards: [
+				{
+					count: 5
+					id: "2C6E0EB78B5F1C8C"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					id: "62A2CB3D1AFA4EDA"
+					item: {
+						count: 1
+						id: "create:cogwheel"
+					}
+					type: "item"
+				}
+				{
+					id: "1D43399116CD05CC"
+					item: {
+						count: 1
+						id: "create:large_cogwheel"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "212E95BECE548BCC"
+					item: {
+						count: 1
+						id: "create:andesite_casing"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1A5BE8D2D0DA2123"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
+				consume_items: false
 				id: "3738BF49336CB89D"
 				item: { count: 1, id: "create:cogwheel" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.0d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["60E4084C211138D9"]
+			dependencies: ["7DC0E43B54FCFC8F"]
 			id: "3B61D9650E9D51D7"
 			rewards: [
 				{
@@ -96,76 +141,196 @@
 			]
 			tasks: [
 				{
+					consume_items: false
 					id: "0A3C683AB4A4D14B"
 					item: { count: 1, id: "tacz:gun_smith_table" }
 					type: "item"
 				}
 				{
+					consume_items: false
 					id: "1533DDC4EAC2FE6D"
 					item: { components: { "minecraft:custom_data": { BlockId: "tacz:attachment_workbench" } }, count: 1, id: "tacz:workbench_c" }
 					type: "item"
 				}
 				{
+					consume_items: false
 					id: "4354E8EF591C7716"
 					item: { components: { "minecraft:custom_data": { BlockId: "tacz:ammo_workbench" } }, count: 1, id: "tacz:workbench_a" }
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -2.5d
+			x: 8.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["60E4084C211138D9"]
+			dependencies: ["3CA5851DD8FF7348"]
 			id: "34C7813229535028"
 			tasks: [{
 				id: "63CE5CA074EFD10B"
 				type: "checkmark"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: 1.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["60E4084C211138D9"]
-			id: "498E8576EE378E41"
-			tasks: [{
-				id: "700290F1F40C5709"
-				type: "checkmark"
-			}]
-			x: 6.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["498E8576EE378E41"]
+			dependencies: ["02DCE47C7EAEADE7"]
 			id: "049CC9206DAB9CC9"
 			tasks: [{
+				consume_items: false
 				id: "26491E0AF2576F7F"
 				item: { count: 1, id: "simulated:physics_assembler" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -2.5d
+			x: 10.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["498E8576EE378E41"]
+			dependencies: ["7DC0E43B54FCFC8F"]
 			id: "0180CB955520D588"
 			tasks: [{
+				consume_items: false
 				id: "59D4B10C8D92411E"
 				item: { count: 1, id: "ecologicalgarden:breeding_guide" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.0d
+			x: 8.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["498E8576EE378E41"]
+			dependencies: ["02DCE47C7EAEADE7"]
 			id: "0665A5AE6D83F8AB"
 			tasks: [{
+				consume_items: false
 				id: "750082CD44747D06"
 				item: { count: 1, id: "northstar:telescope" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.0d
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3CA5851DD8FF7348"]
+			id: "52DE0882BB6912D5"
+			rewards: [{
+				id: "09C88D157CA7A211"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "08ACE6D3626FE7E3"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CA5851DD8FF7348"]
+			id: "787F180D7A09997E"
+			rewards: [
+				{
+					count: 5
+					id: "796C089326BD8262"
+					item: {
+						count: 1
+						id: "betterend:ender_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "011357BCD0FA2ADD"
+					item: {
+						count: 1
+						id: "betternether:cincinnasite_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "4133F5879CA968C6"
+					item: { count: 1, id: "betternether:glowstone_pile" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "50F9E5208D96CA87"
+					item: { count: 1, id: "betterend:ender_shard" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3F6903C3E6AE602B"]
+			id: "3CA5851DD8FF7348"
+			tasks: [{
+				id: "043ADF49CE8039DF"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F6903C3E6AE602B"]
+			id: "7DC0E43B54FCFC8F"
+			tasks: [{
+				id: "599AEDD710C70A5E"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02DCE47C7EAEADE7"]
+			id: "383E2C892B4B16C8"
+			rewards: [
+				{
+					count: 2
+					id: "7CC0897C4B32CB74"
+					item: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
+					type: "item"
+				}
+				{
+					id: "168ECD48377DDA21"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "0B301859AB880723"
+				item: { count: 1, id: "gear_giant:gear_giant_core" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CA5851DD8FF7348"]
+			id: "21BEA2DA0F7A8CB3"
+			tasks: [{
+				id: "20617A1C934DC9FA"
+				item: { count: 1, id: "dimdungeons:item_portal_key" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3CA5851DD8FF7348"]
+			id: "6EBA714191D5841F"
+			tasks: [{
+				id: "4EC58539746B38C9"
+				item: { count: 1, id: "whaleborne:sail" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
 		}
 	]
 }

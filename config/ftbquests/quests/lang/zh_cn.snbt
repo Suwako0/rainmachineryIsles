@@ -5,17 +5,26 @@
 	quest.0180CB955520D588.quest_desc: ["建立生态区，同时获取生态币！"]
 	quest.0180CB955520D588.title: "生态区建设"
 	quest.02DCE47C7EAEADE7.quest_desc: [
-		"机械动力基础工作流搭建"
-		""
 		"{image:kubejs:textures/quest/quest_img6.png width:150 height:150 align:center}"
+		"机械动力是一个以机械设备和自动化为核心的科技模组。玩家可以利用齿轮、传送带、机械臂等装置，搭建自己的自动化生产线。"
+		"基本工作流程：产生动力 → 传递动力 → 驱动机器 → 加工物品 → 自动生产。先使用水车、风车等设备产生动力，再通过齿轮和传动轴将动力传给其他机器，最后完成物品的加工和自动化生产。"
+		"本整合包加入了机械动力诸多附属以提升其拓展性，包含：北极星、附魔工业、过山车、航空学、汽鸣铁道、柴油动力等，可以在任务书中逐一了解到。"
 	]
 	quest.02DCE47C7EAEADE7.title: "齿轮上的宇宙"
+	quest.049CC9206DAB9CC9.quest_desc: ["航空学是机械动力的一个重要附属，可以利用机械动力的设备建造和驾驶各种飞行载具。通过组合机械结构、动力装置和控制部件，最终使用物理组装器将其转变为物理化结构，可以打造属于自己的飞机、飞艇等空中载具或是地面载具以及船等，自由探索天空陆地和海洋。"]
 	quest.049CC9206DAB9CC9.title: "航空学"
 	quest.0665A5AE6D83F8AB.title: "探索深空"
 	quest.0D4761FC0298B4CA.quest_desc: ["物品堆叠上限已提高"]
 	quest.1201D5EDF8846691.title: "QBZ191 突击步枪"
+	quest.1572873EB0836606.quest_subtitle: "兑换 命名牌"
+	quest.1ED32062B0719A14.title: "兑换 染料"
 	quest.2132FCA80C0364A0.title: "兑换 枪械图纸"
-	quest.293C709FF6CFFC31.quest_desc: [" 默认按Alt+Y选择模型，按Y触发模型动作。"]
+	quest.21B57C152E1682EF.title: "兑换 附魔金苹果"
+	quest.21BEA2DA0F7A8CB3.title: "维度地牢"
+	quest.293C709FF6CFFC31.quest_desc: [" 默认按Alt+Y选择模型，按Y触发模型动作"]
+	quest.2ADE2F3C0F30AB28.title: "兑换 矿石包"
+	quest.30408CAA472B240D.title: "兑换 随机树苗"
+	quest.329C0186F4B04BF0.quest_desc: ["更方便在浮岛之间穿梭"]
 	quest.34C7813229535028.quest_desc: [
 		"&6浮空岛的矿石、岩石资源较为匮乏，但是调查结果显示浮岛的地表可能生成一种微量的“原初矿石”，这种原初矿石的硬度极大，无法取走或搬运，但是似乎可以利用这种原初矿石源源不断地获取资源。"
 		"*使用镐类工具左键挖掘原初矿石，可能筛选获取矿石掉落物。"
@@ -33,8 +42,14 @@
 		"原初青金矿石：生成与天际河谷群系"
 		"{image:kubejs:textures/quest/quest_img5.png width:200 height:120 align:center}"
 	]
-	quest.3B61D9650E9D51D7.quest_desc: ["用于防身"]
+	quest.383E2C892B4B16C8.quest_desc: ["召唤并击败齿轮巨人，获取巨人动力核心，合成黄铜齿轮箱，这是一种容量巨大的容器。"]
+	quest.383E2C892B4B16C8.title: "齿轮巨人"
+	quest.3B61D9650E9D51D7.quest_desc: [
+		"冒险旅途中充斥着许多危险的怪物，弄一些枪和子弹防身或许比传统武器更方便。"
+		"注意：枪械和子弹分别需要使用枪械图纸和子弹零件，这两个物品需要建立生态区，使用生态币兑换获取。"
+	]
 	quest.3B61D9650E9D51D7.title: "起枪"
+	quest.3CA5851DD8FF7348.title: "浮岛探索"
 	quest.3F6903C3E6AE602B.quest_desc: [
 		"&2欢迎游玩浮岛遐游整合包，在无尽的浮岛世界中生存发展与探索。&r"
 		"&6在这个世界生存前期中，你需要借助滑翔伞和蛙港抓钩来在岛屿间穿行。"
@@ -42,21 +57,33 @@
 		"蛙港抓钩使用方法：主手持有抓钩，右键向准星位置勾出，按住Shift查看抓钩的详细用法。&r"
 	]
 	quest.3F6903C3E6AE602B.title: "简介"
-	quest.498E8576EE378E41.quest_desc: ["生存中期建设"]
-	quest.498E8576EE378E41.title: "扎根"
 	quest.4D2AA721D02D0F67.quest_desc: ["&a使用自然保护区动物产出的物品兑换生态币，以兑换整合包中诸多道具。&r"]
+	quest.52DE0882BB6912D5.quest_desc: [
+		"袭击来了，但是...有点不太一样？"
+		""
+		"{image:kubejs:textures/quest/quest_img7.png width:190 height:100 align:center}"
+	]
+	quest.52DE0882BB6912D5.quest_subtitle: "做好准备~"
+	quest.52DE0882BB6912D5.title: "空袭！！！"
 	quest.56CEA377B79FD7DB.quest_desc: ["机械师，武装起自己！"]
 	quest.5E8A8CCB737A4E66.quest_desc: ["大面积防止刷怪！！！"]
-	quest.60E4084C211138D9.quest_desc: ["生存初期建设"]
 	quest.66A8A34342A09504.quest_desc: ["默认键位为F6进入/取消灵魂出窍状态"]
+	quest.6EBA714191D5841F.quest_desc: ["驯服巨大的鲸鱼，乘坐它去远航。"]
+	quest.6EBA714191D5841F.title: "鲸帆远航"
+	quest.787F180D7A09997E.title: "下界、末地更新"
+	quest.7DC0E43B54FCFC8F.title: "科技飞升"
+	reward_table.103709C275B2C42D.title: "生态币矿石包"
+	reward_table.330FEE303B7262FD.title: "生态币树苗包"
+	reward_table.57BF76F52B594614.title: "染料表"
+	task.043ADF49CE8039DF.title: "浮岛探索"
+	task.08ACE6D3626FE7E3.title: "空袭！！！"
 	task.2BA4B2E82C363FFC.title: "安山时代"
 	task.2EE9B3AB7DACAFFC.title: "是！史蒂夫模型"
 	task.3501D5C0A5E74429.title: "灵魂出窍"
 	task.550A1813BB88BFD2.title: "生态币兑换"
-	task.5662F07C1689F630.title: "旅途之始"
+	task.599AEDD710C70A5E.title: "科技建设"
 	task.5B985E0F36739B20.title: "石器时代"
 	task.63CE5CA074EFD10B.title: "原初矿石"
-	task.700290F1F40C5709.title: "发展壮大"
 	task.746E1083333FFFEE.title: "超级火把"
 	task.79534F8142C10C81.title: "堆叠升级"
 }

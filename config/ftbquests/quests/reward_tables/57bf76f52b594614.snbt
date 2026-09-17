@@ -1,0 +1,135 @@
+{
+	id: "57BF76F52B594614"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 2
+			id: "460EC4E1EFDAAAED"
+			item: {
+				count: 1
+				id: "minecraft:white_dye"
+			}
+		}
+		{
+			count: 2
+			id: "0CD5A56C9F332982"
+			item: {
+				count: 1
+				id: "minecraft:light_gray_dye"
+			}
+		}
+		{
+			count: 2
+			id: "31F45977A998F282"
+			item: {
+				count: 1
+				id: "minecraft:gray_dye"
+			}
+		}
+		{
+			count: 2
+			id: "4E725BB13489D200"
+			item: {
+				count: 1
+				id: "minecraft:black_dye"
+			}
+		}
+		{
+			count: 2
+			id: "7A92CE1E91BF80E5"
+			item: {
+				count: 1
+				id: "minecraft:brown_dye"
+			}
+		}
+		{
+			count: 2
+			id: "732B25D30CA9039B"
+			item: {
+				count: 1
+				id: "minecraft:red_dye"
+			}
+		}
+		{
+			count: 2
+			id: "18F5E8907A38EEF4"
+			item: {
+				count: 1
+				id: "minecraft:orange_dye"
+			}
+		}
+		{
+			count: 2
+			id: "45ED2C173D4D0628"
+			item: {
+				count: 1
+				id: "minecraft:yellow_dye"
+			}
+		}
+		{
+			count: 2
+			id: "55D4E0855A945205"
+			item: {
+				count: 1
+				id: "minecraft:lime_dye"
+			}
+		}
+		{
+			count: 2
+			id: "33F117C6A4D7D9C7"
+			item: {
+				count: 1
+				id: "minecraft:green_dye"
+			}
+		}
+		{
+			count: 2
+			id: "7F565BAA711217FB"
+			item: {
+				count: 1
+				id: "minecraft:cyan_dye"
+			}
+		}
+		{
+			count: 2
+			id: "65C70A0781D8BF1C"
+			item: {
+				count: 1
+				id: "minecraft:light_blue_dye"
+			}
+		}
+		{
+			count: 2
+			id: "150A506E95A66AD8"
+			item: {
+				count: 1
+				id: "minecraft:blue_dye"
+			}
+		}
+		{
+			count: 2
+			id: "3161B214775CD4B2"
+			item: {
+				count: 1
+				id: "minecraft:purple_dye"
+			}
+		}
+		{
+			count: 2
+			id: "10CACDFB6007471E"
+			item: {
+				count: 1
+				id: "minecraft:magenta_dye"
+			}
+		}
+		{
+			count: 2
+			id: "5E1C9F858B4F6AFB"
+			item: {
+				count: 1
+				id: "minecraft:pink_dye"
+			}
+		}
+	]
+}

@@ -1,0 +1,107 @@
+{
+	id: "330FEE303B7262FD"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			id: "5B79B9E7E1D82E45"
+			item: {
+				count: 1
+				id: "minecraft:oak_sapling"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "0686160AD971D6A0"
+			item: {
+				count: 1
+				id: "minecraft:spruce_sapling"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "7ABDB4AC4DAE8BFB"
+			item: {
+				count: 1
+				id: "minecraft:birch_sapling"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "130EF4E11E28A8DE"
+			item: {
+				count: 1
+				id: "minecraft:jungle_sapling"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "0C52C777923958EC"
+			item: {
+				count: 1
+				id: "minecraft:acacia_sapling"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "2FC7AEBE8B593A7E"
+			item: {
+				count: 1
+				id: "minecraft:dark_oak_sapling"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "3FB0F0BD16EFFD12"
+			item: {
+				count: 1
+				id: "minecraft:cherry_sapling"
+			}
+			weight: 3.0f
+		}
+		{ id: "1FA4ECC09E3088C8", item: { count: 1, id: "biomeswevegone:aspen_sapling" } }
+		{ id: "6760B18CA9B20535", item: { count: 1, id: "biomeswevegone:baobab_sapling" } }
+		{ id: "1238FB3C13CB3AA2", item: { count: 1, id: "biomeswevegone:blue_enchanted_sapling" } }
+		{ id: "519A886B95002FA7", item: { count: 1, id: "biomeswevegone:cika_sapling" } }
+		{ id: "2857AD6D8140950C", item: { count: 1, id: "biomeswevegone:cypress_sapling" } }
+		{ id: "117D48999CB8274F", item: { count: 1, id: "biomeswevegone:ebony_sapling" } }
+		{ id: "4093A1B068536FDB", item: { count: 1, id: "biomeswevegone:fir_sapling" } }
+		{ id: "6231ED08AA88206C", item: { count: 1, id: "biomeswevegone:green_enchanted_sapling" } }
+		{ id: "700BBD6C4245F11F", item: { count: 1, id: "biomeswevegone:holly_sapling" } }
+		{ id: "53C7C85BEF32C63B", item: { count: 1, id: "biomeswevegone:ironwood_sapling" } }
+		{ id: "3CACF30E8D61406F", item: { count: 1, id: "biomeswevegone:jacaranda_sapling" } }
+		{ id: "079F43551E42AD40", item: { count: 1, id: "biomeswevegone:mahogany_sapling" } }
+		{ id: "5E66D5CB57A5367F", item: { count: 1, id: "biomeswevegone:maple_sapling" } }
+		{ id: "0A4E91EAF6900F4B", item: { count: 1, id: "biomeswevegone:palm_sapling" } }
+		{ id: "0BB1007052DF656B", item: { count: 1, id: "biomeswevegone:pine_sapling" } }
+		{ id: "2D43189DE7907BDC", item: { count: 1, id: "biomeswevegone:rainbow_eucalyptus_sapling" } }
+		{ id: "2D36EB3E7511C911", item: { count: 1, id: "biomeswevegone:redwood_sapling" } }
+		{ id: "6289CD138C5812AA", item: { count: 1, id: "biomeswevegone:white_sakura_sapling" } }
+		{ id: "236FBB2E19BF7EFB", item: { count: 1, id: "biomeswevegone:yellow_sakura_sapling" } }
+		{ id: "3CC41FA199E096B3", item: { count: 1, id: "biomeswevegone:skyris_sapling" } }
+		{ id: "46FC1BFAE51154F8", item: { count: 1, id: "biomeswevegone:spirit_sapling" } }
+		{ id: "108E5BCB20DDB82C", item: { count: 1, id: "biomeswevegone:white_mangrove_sapling" } }
+		{ id: "037832274DEA5B40", item: { count: 1, id: "biomeswevegone:willow_sapling" } }
+		{ id: "79D8AB6E210F99DE", item: { count: 1, id: "biomeswevegone:witch_hazel_sapling" } }
+		{ id: "50A9FF5B743C0A2B", item: { count: 1, id: "biomeswevegone:zelkova_sapling" } }
+		{ id: "505EBC340F668695", item: { count: 1, id: "biomeswevegone:palo_verde_sapling" } }
+		{ id: "338DCD80CD89347B", item: { count: 1, id: "biomeswevegone:araucaria_sapling" } }
+		{ id: "46B17A19DBD8F98C", item: { count: 1, id: "biomeswevegone:blue_spruce_sapling" } }
+		{ id: "099D0CB70FA49515", item: { count: 1, id: "biomeswevegone:brown_birch_sapling" } }
+		{ id: "2B5738DACC1A3680", item: { count: 1, id: "biomeswevegone:brown_oak_sapling" } }
+		{ id: "6DF0587FBFF85E4E", item: { count: 1, id: "biomeswevegone:brown_zelkova_sapling" } }
+		{ id: "0D052532D6C12EE0", item: { count: 1, id: "biomeswevegone:indigo_jacaranda_sapling" } }
+		{ id: "34FC542B7662BC46", item: { count: 1, id: "biomeswevegone:orange_birch_sapling" } }
+		{ id: "7E7D500506621731", item: { count: 1, id: "biomeswevegone:orange_oak_sapling" } }
+		{ id: "2C460FCEC34E699C", item: { count: 1, id: "biomeswevegone:orange_spruce_sapling" } }
+		{ id: "2F8F0EA701D92307", item: { count: 1, id: "biomeswevegone:orchard_sapling" } }
+		{ id: "6859506523201395", item: { count: 1, id: "biomeswevegone:red_birch_sapling" } }
+		{ id: "2E81A5FCE910DC14", item: { count: 1, id: "biomeswevegone:red_maple_sapling" } }
+		{ id: "012161E308EEFD00", item: { count: 1, id: "biomeswevegone:red_oak_sapling" } }
+		{ id: "4C78C09003EB5479", item: { count: 1, id: "biomeswevegone:red_spruce_sapling" } }
+		{ id: "6003542ABB0E6C01", item: { count: 1, id: "biomeswevegone:silver_maple_sapling" } }
+		{ id: "65F8D067D3595AEB", item: { count: 1, id: "biomeswevegone:yellow_birch_sapling" } }
+		{ id: "58873A570897DE95", item: { count: 1, id: "biomeswevegone:yellow_spruce_sapling" } }
+		{ id: "5B98FD2AD3424BD1", item: { count: 1, id: "biomeswevegone:yucca_sapling" } }
+	]
+}
