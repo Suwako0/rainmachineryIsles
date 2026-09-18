@@ -4,7 +4,16 @@
 	filename: "64ebc85990650bea"
 	group: ""
 	id: "64EBC85990650BEA"
-	images: [ ]
+	images: [{
+		click_action: "none:"
+		height: 7.0d
+		id: "107CAE27BC24AF34"
+		image: "creaturefeature:block/spool_top"
+		rotation: 0.0d
+		width: 7.0d
+		x: 0.0d
+		y: -1.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -88,6 +97,32 @@
 			}]
 			x: -1.0d
 			y: 0.0d
+		}
+		{
+			id: "4AAC8843372095FE"
+			rewards: [
+				{
+					id: "51F7843703EB98DF"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 2
+					id: "38EA539D68FB0CE8"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4276973DD79B20F6"
+				item: { count: 1, id: "waystones:waystone" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
 		}
 	]
 }

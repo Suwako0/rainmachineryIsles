@@ -169,8 +169,8 @@
 				id: "63CE5CA074EFD10B"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: -1.0d
+			x: 0.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["02DCE47C7EAEADE7"]
@@ -220,8 +220,8 @@
 				id: "08ACE6D3626FE7E3"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: 0.0d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3CA5851DD8FF7348"]
@@ -260,8 +260,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 1.0d
+			x: 0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3F6903C3E6AE602B"]
@@ -318,8 +318,8 @@
 				item: { count: 1, id: "dimdungeons:item_portal_key" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.5d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3CA5851DD8FF7348"]
@@ -329,8 +329,41 @@
 				item: { count: 1, id: "whaleborne:sail" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -1.5d
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3CA5851DD8FF7348"]
+			icon: {
+				id: "aquamirae:ship_graveyard_echo"
+			}
+			id: "14AF1620D09732A0"
+			rewards: [
+				{
+					count: 3
+					id: "614D7E8D26CBAD66"
+					item: {
+						count: 1
+						id: "aquamirae:sea_casserole"
+					}
+					type: "item"
+				}
+				{
+					id: "0BFC556F6827F106"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				biome: "#aquamirae:ice_maze"
+				icon: {
+					id: "aquamirae:rune_of_the_storm"
+				}
+				id: "434558B5C337F390"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 1.5d
 		}
 	]
 }

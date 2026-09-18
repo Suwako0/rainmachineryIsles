@@ -16,6 +16,8 @@
 	quest.0665A5AE6D83F8AB.title: "探索深空"
 	quest.0D4761FC0298B4CA.quest_desc: ["物品堆叠上限已提高"]
 	quest.1201D5EDF8846691.title: "QBZ191 突击步枪"
+	quest.14AF1620D09732A0.quest_desc: ["在巨大的寒冰迷宫中，探寻冰川和海洋中的秘密，揭开船队失踪的真相"]
+	quest.14AF1620D09732A0.title: "海灵物语"
 	quest.1572873EB0836606.quest_subtitle: "兑换 命名牌"
 	quest.1ED32062B0719A14.title: "兑换 染料"
 	quest.2132FCA80C0364A0.title: "兑换 枪械图纸"
@@ -49,6 +51,7 @@
 		"注意：枪械和子弹分别需要使用枪械图纸和子弹零件，这两个物品需要建立生态区，使用生态币兑换获取。"
 	]
 	quest.3B61D9650E9D51D7.title: "起枪"
+	quest.3CA5851DD8FF7348.quest_desc: ["&b本任务子章节介绍整合包冒险部分内容&r"]
 	quest.3CA5851DD8FF7348.title: "浮岛探索"
 	quest.3F6903C3E6AE602B.quest_desc: [
 		"&2欢迎游玩浮岛遐游整合包，在无尽的浮岛世界中生存发展与探索。&r"
@@ -57,6 +60,7 @@
 		"蛙港抓钩使用方法：主手持有抓钩，右键向准星位置勾出，按住Shift查看抓钩的详细用法。&r"
 	]
 	quest.3F6903C3E6AE602B.title: "简介"
+	quest.4AAC8843372095FE.quest_desc: ["激活传送石碑，以实现消耗经验值在两块石碑之间传送"]
 	quest.4D2AA721D02D0F67.quest_desc: ["&a使用自然保护区动物产出的物品兑换生态币，以兑换整合包中诸多道具。&r"]
 	quest.52DE0882BB6912D5.quest_desc: [
 		"袭击来了，但是...有点不太一样？"
@@ -71,6 +75,7 @@
 	quest.6EBA714191D5841F.quest_desc: ["驯服巨大的鲸鱼，乘坐它去远航。"]
 	quest.6EBA714191D5841F.title: "鲸帆远航"
 	quest.787F180D7A09997E.title: "下界、末地更新"
+	quest.7DC0E43B54FCFC8F.quest_desc: ["&b本任务子章节介绍整合包科技部分内容&r"]
 	quest.7DC0E43B54FCFC8F.title: "科技飞升"
 	reward_table.103709C275B2C42D.title: "生态币矿石包"
 	reward_table.330FEE303B7262FD.title: "生态币树苗包"
