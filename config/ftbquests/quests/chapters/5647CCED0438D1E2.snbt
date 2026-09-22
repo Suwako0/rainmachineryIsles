@@ -690,6 +690,7 @@
 			y: 0.5d
 		}
 		{
+			can_repeat: false
 			icon: {
 				id: "kubejs:environment_coin"
 			}

@@ -1,5 +1,6 @@
 {
-	chapter.3FE166DB82846524.title: "浮岛遐游"
+	chapter.0BB9E78CA69384DB.title: "深空旅途"
+	chapter.3FE166DB82846524.title: "浮岛遐游(主线)"
 	chapter.5647CCED0438D1E2.title: "生态花园"
 	chapter.64EBC85990650BEA.title: "生活改善"
 	quest.0180CB955520D588.quest_desc: ["建立生态区，同时获取生态币！"]
@@ -44,6 +45,8 @@
 		"原初青金矿石：生成与天际河谷群系"
 		"{image:kubejs:textures/quest/quest_img5.png width:200 height:120 align:center}"
 	]
+	quest.35AC992352B693ED.quest_desc: ["什么，月球上有一片树林..."]
+	quest.35AC992352B693ED.title: "月林"
 	quest.383E2C892B4B16C8.quest_desc: ["召唤并击败齿轮巨人，获取巨人动力核心，合成黄铜齿轮箱，这是一种容量巨大的容器。"]
 	quest.383E2C892B4B16C8.title: "齿轮巨人"
 	quest.3B61D9650E9D51D7.quest_desc: [
@@ -69,11 +72,29 @@
 	]
 	quest.52DE0882BB6912D5.quest_subtitle: "做好准备~"
 	quest.52DE0882BB6912D5.title: "空袭！！！"
+	quest.566C0149AB2A0890.quest_desc: [
+		"要召唤梦眠月鹿，首先需要使用一个月明珠对梦眠之草右键，将会在此处生成梦眠月鹿召唤祭坛法阵，再使用月壳修复破损的月明珠，使用月明珠右击祭坛，即可召唤。"
+		"这是一个强大的BOSS，挑战前务必做好充分准备~"
+	]
+	quest.566C0149AB2A0890.title: "月鹿"
 	quest.56CEA377B79FD7DB.quest_desc: ["机械师，武装起自己！"]
 	quest.5E8A8CCB737A4E66.quest_desc: ["大面积防止刷怪！！！"]
+	quest.5FA002B22A495EA8.quest_desc: ["处置月球上的一些不速之客"]
+	quest.5FA002B22A495EA8.title: "月球基地"
 	quest.66A8A34342A09504.quest_desc: ["默认键位为F6进入/取消灵魂出窍状态"]
 	quest.6EBA714191D5841F.quest_desc: ["驯服巨大的鲸鱼，乘坐它去远航。"]
 	quest.6EBA714191D5841F.title: "鲸帆远航"
+	quest.71E03378BEA4305E.quest_desc: [
+		"月林群系存在两种生物，月兔和月壳蟹，这两种生物均可用月之花繁殖。"
+		"月之花在月林群系自然生成，或是使用骨粉催梦眠之土。"
+		""
+		"使用金胡萝卜和月兔进行交易，可以获得月饼，一种传统美食，也有小概率掉落月明珠，一种稀有的材料。"
+		""
+		"月壳蟹死亡掉落月壳。"
+	]
+	quest.71E03378BEA4305E.title: "月林生物"
+	quest.753F1BEC85F7F64B.quest_subtitle: "需要完成主线任务的“探索深空”"
+	quest.753F1BEC85F7F64B.title: "月球"
 	quest.787F180D7A09997E.title: "下界、末地更新"
 	quest.7DC0E43B54FCFC8F.quest_desc: ["&b本任务子章节介绍整合包科技部分内容&r"]
 	quest.7DC0E43B54FCFC8F.title: "科技飞升"

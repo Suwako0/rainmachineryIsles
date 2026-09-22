@@ -1,0 +1,102 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0bb9e78ca69384db"
+	group: ""
+	id: "0BB9E78CA69384DB"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0665A5AE6D83F8AB"]
+			id: "753F1BEC85F7F64B"
+			tasks: [{
+				dimension: "northstar:moon"
+				id: "2B6AEEF6DD80D776"
+				type: "dimension"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["753F1BEC85F7F64B"]
+			id: "5FA002B22A495EA8"
+			tasks: [{
+				id: "0F1B9ECCDF5EF356"
+				structure: "northstar:lunar_base"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["753F1BEC85F7F64B"]
+			id: "35AC992352B693ED"
+			rewards: [{
+				count: 10
+				id: "6E89DA983CDFD055"
+				item: {
+					count: 1
+					id: "northstar_moon_addon:moon_bloom"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "northstar_moon_addon:moon_forest"
+				icon: {
+					id: "northstar_moon_addon:moonlight_sapling"
+				}
+				id: "6AEB87E9DD39A665"
+				type: "biome"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["35AC992352B693ED"]
+			id: "71E03378BEA4305E"
+			rewards: [
+				{
+					id: "2BE7CA5A2E4FA8BF"
+					item: {
+						count: 1
+						id: "northstar_moon_addon:mooncake"
+					}
+					type: "item"
+				}
+				{
+					id: "6A1E4FC33F2841DB"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "162D15E722AD4554"
+				item: { count: 1, id: "minecraft:golden_carrot" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["71E03378BEA4305E"]
+			id: "566C0149AB2A0890"
+			tasks: [
+				{
+					entity: "northstar_moon_addon:lunar_deer"
+					id: "61D834271B26C89E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "41C8917D5E9C1B37"
+					item: { count: 1, id: "northstar_moon_addon:moon_deer_antler" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -3.5d
+		}
+	]
+}
