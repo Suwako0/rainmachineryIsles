@@ -3,6 +3,12 @@
 	default_quest_shape: ""
 	filename: "0bb9e78ca69384db"
 	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "betterend:block/end_portal"
+		}
+		id: "ftbquests:custom_icon"
+	}
 	id: "0BB9E78CA69384DB"
 	images: [ ]
 	order_index: 3
