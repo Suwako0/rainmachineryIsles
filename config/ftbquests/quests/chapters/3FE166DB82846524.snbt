@@ -365,5 +365,37 @@
 			x: 0.0d
 			y: 1.5d
 		}
+		{
+			dependencies: ["383E2C892B4B16C8"]
+			id: "0792DDC55516F106"
+			rewards: [{
+				id: "4B504A57F0692C81"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "375A67F596E5053D"
+				item: { count: 1, id: "gear_giant:brass_gear_chest" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["383E2C892B4B16C8"]
+			id: "1B41E68ED2E08D0E"
+			rewards: [{
+				id: "4EC3C86F9D8CCFB4"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "12CFBE6A8EBD3551"
+				item: { count: 1, id: "gear_giant:mechanical_hook" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
 	]
 }
