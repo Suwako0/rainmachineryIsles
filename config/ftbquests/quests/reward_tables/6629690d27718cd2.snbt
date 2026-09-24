@@ -1,0 +1,23 @@
+{
+	id: "6629690D27718CD2"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ id: "3A6B2A25B5658A59", item: { count: 1, id: "bountifulfares:white_jack_o_straw" } }
+		{ id: "4F7C001C5A3392D5", item: { count: 1, id: "bountifulfares:light_gray_jack_o_straw" } }
+		{ id: "65848249C15617EF", item: { count: 1, id: "bountifulfares:gray_jack_o_straw" } }
+		{ id: "149492DCB358AC78", item: { count: 1, id: "bountifulfares:black_jack_o_straw" } }
+		{ id: "6D07E0D8F0E92C06", item: { count: 1, id: "bountifulfares:brown_jack_o_straw" } }
+		{ id: "18B8AB01FE1DFA18", item: { count: 1, id: "bountifulfares:red_jack_o_straw" } }
+		{ id: "011F10612A2259E1", item: { count: 1, id: "bountifulfares:orange_jack_o_straw" } }
+		{ id: "7CE349FD08C77E2D", item: { count: 1, id: "bountifulfares:yellow_jack_o_straw" } }
+		{ id: "5CD0F01592716BE1", item: { count: 1, id: "bountifulfares:lime_jack_o_straw" } }
+		{ id: "20849165E2E6007F", item: { count: 1, id: "bountifulfares:green_jack_o_straw" } }
+		{ id: "68A91058FCA7ED44", item: { count: 1, id: "bountifulfares:cyan_jack_o_straw" } }
+		{ id: "5555E8BFE87AAA22", item: { count: 1, id: "bountifulfares:light_blue_jack_o_straw" } }
+		{ id: "27EFBAE5E5D483D3", item: { count: 1, id: "bountifulfares:blue_jack_o_straw" } }
+		{ id: "16E16EFA86CD000F", item: { count: 1, id: "bountifulfares:purple_jack_o_straw" } }
+		{ id: "6F8ADB9C0B96D7A5", item: { count: 1, id: "bountifulfares:magenta_jack_o_straw" } }
+		{ id: "3954D9A7C9D6A5BA", item: { count: 1, id: "bountifulfares:pink_jack_o_straw" } }
+	]
+}

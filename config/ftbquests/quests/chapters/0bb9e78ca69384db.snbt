@@ -88,6 +88,11 @@
 		{
 			dependencies: ["71E03378BEA4305E"]
 			id: "566C0149AB2A0890"
+			rewards: [{
+				id: "52D285CE99CEE677"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [
 				{
 					entity: "northstar_moon_addon:lunar_deer"
@@ -103,6 +108,17 @@
 			]
 			x: -1.0d
 			y: -3.5d
+		}
+		{
+			dependencies: ["0665A5AE6D83F8AB"]
+			id: "4B28334F108BC296"
+			tasks: [{
+				dimension: "northstar:mars"
+				id: "73C51D9EC1338693"
+				type: "dimension"
+			}]
+			x: -6.0d
+			y: -1.5d
 		}
 	]
 }

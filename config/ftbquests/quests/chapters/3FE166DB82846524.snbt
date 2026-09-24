@@ -266,6 +266,14 @@
 		{
 			dependencies: ["3F6903C3E6AE602B"]
 			id: "3CA5851DD8FF7348"
+			rewards: [{
+				id: "75DE0220216A4795"
+				item: {
+					count: 1
+					id: "minecraft:hay_block"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "043ADF49CE8039DF"
 				type: "checkmark"
@@ -276,6 +284,15 @@
 		{
 			dependencies: ["3F6903C3E6AE602B"]
 			id: "7DC0E43B54FCFC8F"
+			rewards: [{
+				count: 10
+				id: "07791EBF74F7E354"
+				item: {
+					count: 1
+					id: "minecraft:andesite"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "599AEDD710C70A5E"
 				type: "checkmark"

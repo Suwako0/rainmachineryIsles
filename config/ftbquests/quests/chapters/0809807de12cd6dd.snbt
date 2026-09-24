@@ -1,0 +1,1049 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0809807de12cd6dd"
+	group: ""
+	icon: {
+		id: "bountifulfares:passion_glazed_salmon"
+	}
+	id: "0809807DE12CD6DD"
+	images: [{
+		click_action: "none:"
+		height: 4.0d
+		id: "3D5B24F0F4BB62F1"
+		image: "ecologicalgarden:textures/gui/button/entity/wheat.png"
+		rotation: 0.0d
+		width: 4.0d
+		x: -8.0d
+		y: -2.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "22DFEA959DC401BD"
+			rewards: [
+				{
+					count: 2
+					id: "692D225D6D6D571D"
+					item: {
+						count: 1
+						id: "bakeries:honey_butter_spread_toast"
+					}
+					type: "item"
+				}
+				{
+					id: "70B2E58B2A4F35C4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "7DC33CA70C3696F7"
+				item: { count: 1, id: "minecraft:bread" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["22DFEA959DC401BD"]
+			id: "24225388C3CAEF14"
+			rewards: [{
+				id: "5B203C4E247EA6EE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 4L
+				id: "1EDA629080B51766"
+				item: { count: 1, id: "create:wheat_flour" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["22DFEA959DC401BD"]
+			id: "2C47FE60DE6D3E5C"
+			rewards: [{
+				id: "1AFA20B59176F427"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "24B0EE2E9FD91563"
+				item: { count: 1, id: "minecraft:sugar" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["22DFEA959DC401BD"]
+			id: "6B693FB6DFA646F7"
+			rewards: [{
+				id: "5AFE4E051D544A46"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5294F8271C2B66C5"
+				item: { count: 1, id: "bakeries:salt" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["22DFEA959DC401BD"]
+			id: "2AD42E6D0A6CE422"
+			rewards: [{
+				id: "6B294DDE598238CD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "72F1013802181DBB"
+					item: { count: 1, id: "bakeries:butter_cube" }
+					type: "item"
+				}
+				{
+					id: "4A05D54346895D25"
+					item: { count: 1, id: "bakeries:blender" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["22DFEA959DC401BD"]
+			id: "58F52FCDB605AA4D"
+			rewards: [{
+				id: "1DBAF65DDE828A2F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6155D92FDDAB6479"
+				item: { count: 1, id: "bakeries:bottle_milk" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["22DFEA959DC401BD"]
+			id: "76E8460FAEFEEAB9"
+			rewards: [{
+				id: "4A72B1D40B63BB1D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 3L
+				id: "0119BD66AA8E7A1B"
+				item: { count: 1, id: "bakeries:whole_wheat_flour" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["76E8460FAEFEEAB9"]
+			id: "7484A15067E98B1C"
+			rewards: [{
+				id: "4F1DB52BEEC4C59A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6518A4B6AB34360E"
+				item: { count: 1, id: "bakeries:bottle_yeast" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"58F52FCDB605AA4D"
+				"24225388C3CAEF14"
+				"7484A15067E98B1C"
+				"6B693FB6DFA646F7"
+				"2C47FE60DE6D3E5C"
+				"2AD42E6D0A6CE422"
+			]
+			id: "546EDBC2FF81DB43"
+			rewards: [{
+				id: "55BFFAE75923D7C6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0E34740C0354FC81"
+				item: { count: 1, id: "bakeries:sweet_dough" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["546EDBC2FF81DB43"]
+			id: "3E7AC13F9EB5173B"
+			rewards: [{
+				id: "2DF5CAC0478D5E12"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "45A0939DED28400C"
+					item: { count: 1, id: "bakeries:fermentation_box" }
+					type: "item"
+				}
+				{
+					id: "2DFF181942ED358A"
+					item: { count: 1, id: "bakeries:sweet_dough_fermentation" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3E7AC13F9EB5173B"]
+			id: "6AAF84CF13BDAA99"
+			rewards: [{
+				id: "2D4CBFF6E25122EB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "7BA9CD975387334D"
+					item: { count: 1, id: "bakeries:dough_crafting_table" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5FE6FEED011B33D6"
+					item: { count: 1, id: "bakeries:round_bread_dough" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"6AAF84CF13BDAA99"
+				"0FA49665B30BAD53"
+			]
+			id: "280BBDE90521CD69"
+			rewards: [{
+				id: "0AA6DAB9E9A78B3C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0246D0CF28C26235"
+				item: { count: 1, id: "bakeries:mould_toast_dough" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3E7AC13F9EB5173B"]
+			id: "0FA49665B30BAD53"
+			rewards: [{
+				id: "247F3671D78D40C8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "61B986F4CE7B93F7"
+				item: { count: 1, id: "bakeries:mould" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["280BBDE90521CD69"]
+			id: "316A5A3577781534"
+			rewards: [{
+				id: "2365E034E5ED8CA8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "0FEE983172D16C8F"
+					item: { count: 1, id: "bakeries:oven" }
+					type: "item"
+				}
+				{
+					id: "6FF1D1CB759E5FCD"
+					item: { count: 1, id: "bakeries:bread_knife" }
+					type: "item"
+				}
+				{
+					id: "00F6A8CCC79DF4D8"
+					item: { count: 1, id: "bakeries:toast" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["316A5A3577781534"]
+			id: "40B3FBC64DD71783"
+			rewards: [
+				{
+					count: 5
+					id: "7BA49CCFBBE1BD03"
+					item: {
+						count: 1
+						id: "bakeries:meat_floss"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "01F47B4FECAD3486"
+					item: {
+						count: 1
+						id: "minecraft:honey_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "6472F4D69E0386D7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "2F415A602D66BB07"
+				item: { count: 1, id: "bakeries:sliced_toast" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["40B3FBC64DD71783"]
+			id: "4C5391EE60B8C4F5"
+			rewards: [
+				{
+					count: 5
+					id: "74C1BE50F5DE13C3"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+				{
+					id: "77EFF22E874566B6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "26E3C6D4288065B9"
+				item: { count: 1, id: "bakeries:meat_floss_bread_roll" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["40B3FBC64DD71783"]
+			id: "64E610CBB2457BCE"
+			rewards: [
+				{
+					count: 5
+					id: "5A1359FB825E252B"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+				{
+					id: "28E906175E082872"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "200A958A7B93369B"
+				item: { count: 1, id: "bakeries:bake_sliced_toast" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["40B3FBC64DD71783"]
+			id: "3F452B465D28BA7E"
+			rewards: [
+				{
+					count: 5
+					id: "5FDB8D4F37FD56F1"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+				{
+					id: "190442A8C24332FF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "61E60C65E4E5CDAB"
+				item: { count: 1, id: "bakeries:honey_butter_spread_toast" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			id: "5F377F31F1635FC7"
+			rewards: [{
+				id: "0A347A1010BE13FE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "10FFFE699344827E"
+				item: { count: 1, id: "bountifulfares:grass_seeds" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4E6C052D1C98839C"]
+			id: "283AA3E96B5A3E95"
+			rewards: [{
+				count: 2
+				id: "4CF0337D6110BD00"
+				item: {
+					count: 1
+					id: "bakeries:flour"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "021294EF56893CAE"
+				item: { count: 1, id: "bountifulfares:flour" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4E6C052D1C98839C"]
+			id: "5FC3799134FCBEA1"
+			rewards: [{
+				count: 2
+				id: "01FBB4A8FB039B87"
+				item: {
+					count: 1
+					id: "bountifulfares:flour"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "1B1DA78C5C37DD47"
+				item: { count: 1, id: "bakeries:flour" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			id: "4E6C052D1C98839C"
+			rewards: [{
+				count: 10
+				id: "0C50E4110EA7891B"
+				item: {
+					count: 1
+					id: "minecraft:wheat"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "175F258A47D5271D"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5F377F31F1635FC7"]
+			id: "4227E09F186789CA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "115812EBF4CDC707"
+					table_id: 1967349122740660092L
+					type: "random"
+				}
+				{
+					id: "45655255085BB01A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "25795AC68467FEA2"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4227E09F186789CA"]
+			id: "612F8ACA09C13CBB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "49A1CD3729073C48"
+					table_id: 1967349122740660092L
+					type: "random"
+				}
+				{
+					id: "40D986F8E3920077"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "3ACAFE84B2CD04CF"
+				item: { count: 1, id: "bountifulfares:apple_sapling" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4227E09F186789CA"]
+			id: "4AF066B6590EBEEC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "43318214074E84AE"
+					table_id: 1967349122740660092L
+					type: "random"
+				}
+				{
+					id: "735B42CE2A5E645D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "4F60CA79879C320D"
+				item: { count: 1, id: "bountifulfares:orange_sapling" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4227E09F186789CA"]
+			id: "798B92DADF0DD706"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "00FCAC698617048B"
+					table_id: 1967349122740660092L
+					type: "random"
+				}
+				{
+					id: "6F0144303EA43502"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "7BB7199B1AFCD2F7"
+				item: { count: 1, id: "bountifulfares:lemon_sapling" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4227E09F186789CA"]
+			id: "6C8337A255CB9D4E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "70ED12280F7B4983"
+					table_id: 1967349122740660092L
+					type: "random"
+				}
+				{
+					id: "00D3848CA63F1CA4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "78A91DECC0C97B24"
+				item: { count: 1, id: "bountifulfares:plum_sapling" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4227E09F186789CA"]
+			id: "1B7E84CA21593491"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "29DDE8EB8D280C0A"
+					table_id: 1967349122740660092L
+					type: "random"
+				}
+				{
+					id: "02DC0A7C5149373D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "2E5CC1DB25B0FB80"
+				item: { count: 1, id: "bountifulfares:hoary_apple_sapling" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4227E09F186789CA"]
+			id: "08FBCBE1F05827CB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "59CAD047799528D7"
+					table_id: 1967349122740660092L
+					type: "random"
+				}
+				{
+					id: "1A007A38E43E5F6A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "408BC2EAB41BB680"
+				item: { count: 1, id: "bountifulfares:walnut_sapling" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4227E09F186789CA"]
+			id: "56124E275ED5BA48"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2FC5E7594E1A183A"
+					table_id: 1967349122740660092L
+					type: "random"
+				}
+				{
+					id: "0132D6509F5E9FE3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "54F4407A072D91EF"
+				item: { count: 1, id: "bountifulfares:golden_apple_sapling" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F377F31F1635FC7"]
+			id: "053DA16AB02B1E7D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "564FAB34F0E3D5F6"
+					table_id: 7361530571131030738L
+					type: "choice"
+				}
+				{
+					id: "216056B6A93392BF"
+					item: {
+						count: 1
+						id: "bountifulfares:meadow_medley"
+					}
+					type: "item"
+				}
+				{
+					id: "05F0C003D509427C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "4E2817C4676CF624"
+				item: { count: 1, id: "bountifulfares:sun_hat" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F377F31F1635FC7"]
+			id: "51DAA56A35327411"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1EC43038F3A7C81F"
+					table_id: 1967349122740660092L
+					type: "random"
+				}
+				{
+					id: "704F5A1A1986C859"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "43DE56EA9596E245"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51DAA56A35327411"]
+			id: "6D13D756A17E1CFD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "71E3DEE2ADF0FC2E"
+					table_id: 1967349122740660092L
+					type: "random"
+				}
+				{
+					id: "77CFA8E667F4041D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "7AB6979226549C97"
+				item: { count: 1, id: "bountifulfares:green_tea_candle" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["51DAA56A35327411"]
+			id: "26551F44856C6570"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "154638136BFEA70C"
+					table_id: 1967349122740660092L
+					type: "random"
+				}
+				{
+					id: "7E2FA0341E75E399"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "12CABA6829E6852A"
+				item: { count: 1, id: "bountifulfares:black_tea_candle" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["51DAA56A35327411"]
+			id: "29F22FD809102828"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "640491099AA7693A"
+					table_id: 1967349122740660092L
+					type: "random"
+				}
+				{
+					id: "12582A6BA416F75C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "1A7E3029416604D7"
+				item: { count: 1, id: "bountifulfares:chamomile_candle" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["51DAA56A35327411"]
+			id: "74512FC813679E6E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "240BFEB929258CE1"
+					table_id: 1967349122740660092L
+					type: "random"
+				}
+				{
+					id: "010FB8F4D044FEBA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "4A86B3329EB8539F"
+				item: { count: 1, id: "bountifulfares:honeysuckle_candle" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["51DAA56A35327411"]
+			id: "079993FF56688D16"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4B993E1170CBCCF4"
+					table_id: 1967349122740660092L
+					type: "random"
+				}
+				{
+					id: "150CF049B5034E10"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "49239BEE7B07474E"
+				item: { count: 1, id: "bountifulfares:bellflower_candle" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["51DAA56A35327411"]
+			id: "3652C642EC204DD4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4988591BC92F6456"
+					table_id: 1967349122740660092L
+					type: "random"
+				}
+				{
+					id: "6E01EB9C2BE9709C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0981A9DE534C3BB7"
+				item: { count: 1, id: "bountifulfares:torchflower_candle" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["51DAA56A35327411"]
+			id: "68577F2E01579170"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "663659053162175D"
+					table_id: 1967349122740660092L
+					type: "random"
+				}
+				{
+					id: "7D36C3DEF757126F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "1FE0C27962BBD2B2"
+				item: { count: 1, id: "bountifulfares:walnut_candle" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["51DAA56A35327411"]
+			id: "30B98C414C049316"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "60F6C37C2CA52AB1"
+					table_id: 1967349122740660092L
+					type: "random"
+				}
+				{
+					id: "4C0F79F7E08E6F35"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "2C510503445A2CAC"
+				item: { count: 1, id: "bountifulfares:coconut_candle" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F377F31F1635FC7"]
+			id: "085CFB7125C8CE99"
+			rewards: [{
+				id: "59DA1C02D2B39501"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "31E7BAF09D96E6D2"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["085CFB7125C8CE99"]
+			id: "12528D114FD553A4"
+			rewards: [{
+				id: "26D0CD3CCFEC71F7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1AC5116F28ACEF69"
+				item: { count: 1, id: "bountifulfares:sweet_berry_pips" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["085CFB7125C8CE99"]
+			id: "0D7F901FFF871EB5"
+			rewards: [{
+				id: "34C8884947FF6769"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0F5B4C921CA01F1C"
+				item: { count: 1, id: "bountifulfares:maize_seeds" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["085CFB7125C8CE99"]
+			id: "3736CE744138B0BE"
+			rewards: [{
+				id: "0DDDD2276AD8FD23"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "251FE5151805DFDE"
+				item: { count: 1, id: "bountifulfares:leek_seeds" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["085CFB7125C8CE99"]
+			id: "20E405B4996002B2"
+			rewards: [{
+				id: "51D520C7055F1D52"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5628D8A8E151DC87"
+				item: { count: 1, id: "bountifulfares:spongekin_seeds" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["085CFB7125C8CE99"]
+			id: "32D77A0B68B3F7DF"
+			rewards: [{
+				id: "604D22C1E7156A24"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "39A99584C54EE00B"
+				item: { count: 1, id: "bountifulfares:lapisberry_seeds" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["085CFB7125C8CE99"]
+			id: "6B818D028C365841"
+			rewards: [{
+				id: "372175AFD5945C04"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "76549A2140E9F3EE"
+				item: { count: 1, id: "bountifulfares:hoary_seeds" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+	]
+}

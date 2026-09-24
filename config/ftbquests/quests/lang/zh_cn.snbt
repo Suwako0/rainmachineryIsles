@@ -1,4 +1,5 @@
 {
+	chapter.0809807DE12CD6DD.title: "老厨师长"
 	chapter.0BB9E78CA69384DB.title: "深空旅途"
 	chapter.3FE166DB82846524.title: "浮岛遐游(主线)"
 	chapter.5647CCED0438D1E2.title: "生态花园"
@@ -14,9 +15,14 @@
 	quest.02DCE47C7EAEADE7.title: "齿轮上的宇宙"
 	quest.049CC9206DAB9CC9.quest_desc: ["航空学是机械动力的一个重要附属，可以利用机械动力的设备建造和驾驶各种飞行载具。通过组合机械结构、动力装置和控制部件，最终使用物理组装器将其转变为物理化结构，可以打造属于自己的飞机、飞艇等空中载具或是地面载具以及船等，自由探索天空陆地和海洋。"]
 	quest.049CC9206DAB9CC9.title: "航空学"
+	quest.053DA16AB02B1E7D.quest_desc: ["各种颜色的稻草人装饰物，当然...遮阳帽也可以穿戴"]
+	quest.053DA16AB02B1E7D.title: "稻草人"
 	quest.0665A5AE6D83F8AB.title: "探索深空"
 	quest.0792DDC55516F106.quest_desc: ["一种容量很大的容器且带有潜影盒的拆卸后保留容器内物品能力，由巨人动力核心合成。"]
+	quest.085CFB7125C8CE99.quest_desc: ["新的农作物种子，种植它们来制作美食"]
+	quest.085CFB7125C8CE99.title: "作物"
 	quest.0D4761FC0298B4CA.quest_desc: ["物品堆叠上限已提高"]
+	quest.0FA49665B30BAD53.title: "制作 模具"
 	quest.1201D5EDF8846691.title: "QBZ191 突击步枪"
 	quest.14AF1620D09732A0.quest_desc: ["在巨大的寒冰迷宫中，探寻冰川和海洋中的秘密，揭开船队失踪的真相"]
 	quest.14AF1620D09732A0.title: "海灵物语"
@@ -29,9 +35,22 @@
 	quest.2132FCA80C0364A0.title: "兑换 枪械图纸"
 	quest.21B57C152E1682EF.title: "兑换 附魔金苹果"
 	quest.21BEA2DA0F7A8CB3.title: "维度地牢"
+	quest.22DFEA959DC401BD.quest_desc: ["本章节介绍如何使用烘培的手法制作各种面包等食品，我们以吐司为例，介绍一下制作的流程。"]
+	quest.22DFEA959DC401BD.title: "烘培!!!"
+	quest.24225388C3CAEF14.quest_desc: ["将小麦研磨为小麦面粉，再进一步将小麦面粉研磨为面粉"]
+	quest.24225388C3CAEF14.title: "准备原料：小麦面粉"
+	quest.280BBDE90521CD69.quest_desc: ["圆面包面胚和模具合成吐司面胚"]
+	quest.280BBDE90521CD69.title: "制作 吐司面胚"
+	quest.283AA3E96B5A3E95.title: "面粉转换"
 	quest.293C709FF6CFFC31.quest_desc: [" 默认按Alt+Y选择模型，按Y触发模型动作"]
+	quest.2AD42E6D0A6CE422.quest_desc: ["将奶瓶/奶桶等放入搅拌机搅拌，获取瓶装淡奶油，将瓶装淡奶油再放入搅拌机搅拌获取黄油块"]
+	quest.2AD42E6D0A6CE422.title: "准备原料：黄油块"
 	quest.2ADE2F3C0F30AB28.title: "兑换 矿石包"
+	quest.2C47FE60DE6D3E5C.quest_desc: ["研磨甘蔗获取糖"]
+	quest.2C47FE60DE6D3E5C.title: "准备原料：糖"
 	quest.30408CAA472B240D.title: "兑换 随机树苗"
+	quest.316A5A3577781534.quest_desc: ["使用烤炉烘烤吐司面胚，然后使用面包刀脱模获取吐司，吐司还无法直接食用（但是可以放置），需要切割"]
+	quest.316A5A3577781534.title: "制作 吐司"
 	quest.329C0186F4B04BF0.quest_desc: ["更方便在浮岛之间穿梭"]
 	quest.34C7813229535028.quest_desc: [
 		"&6浮空岛的矿石、岩石资源较为匮乏，但是调查结果显示浮岛的地表可能生成一种微量的“原初矿石”，这种原初矿石的硬度极大，无法取走或搬运，但是似乎可以利用这种原初矿石源源不断地获取资源。"
@@ -61,6 +80,8 @@
 	quest.3B61D9650E9D51D7.title: "起枪"
 	quest.3CA5851DD8FF7348.quest_desc: ["&b本任务子章节介绍整合包冒险部分内容&r"]
 	quest.3CA5851DD8FF7348.title: "浮岛探索"
+	quest.3E7AC13F9EB5173B.quest_desc: ["将甜面团放入醒发箱发酵获取发酵甜面团"]
+	quest.3E7AC13F9EB5173B.title: "制作 发酵甜面团"
 	quest.3F6903C3E6AE602B.quest_desc: [
 		"&2欢迎游玩浮岛遐游整合包，在无尽的浮岛世界中生存发展与探索。&r"
 		"&6在这个世界生存前期中，你需要借助滑翔伞和蛙港抓钩来在岛屿间穿行。"
@@ -68,8 +89,18 @@
 		"蛙港抓钩使用方法：主手持有抓钩，右键向准星位置勾出，按住Shift查看抓钩的详细用法。&r"
 	]
 	quest.3F6903C3E6AE602B.title: "简介"
+	quest.40B3FBC64DD71783.quest_desc: ["使用面包刀切割吐司获取吐司片。吐司片可以食用，也可以用吐司片进一步制备各种食品"]
+	quest.40B3FBC64DD71783.title: "制作 吐司片"
+	quest.4227E09F186789CA.quest_desc: ["新增一些果树，可以用这些果树的果实制作美食"]
+	quest.4227E09F186789CA.title: "果树"
 	quest.4AAC8843372095FE.quest_desc: ["激活传送石碑，以实现消耗经验值在两块石碑之间传送"]
+	quest.4B28334F108BC296.quest_subtitle: "需要完成主线任务的“探索深空”"
+	quest.4B28334F108BC296.title: "火星"
 	quest.4D2AA721D02D0F67.quest_desc: ["&a使用自然保护区动物产出的物品兑换生态币，以兑换整合包中诸多道具。&r"]
+	quest.4E6C052D1C98839C.quest_desc: ["用于方便转换面粉"]
+	quest.4E6C052D1C98839C.title: "面粉转换"
+	quest.51DAA56A35327411.quest_desc: ["添加了各种神奇的蜡烛，这些蜡烛不仅好看，还能在小范围内为玩家提供实用的Buff"]
+	quest.51DAA56A35327411.title: "蜡烛"
 	quest.52DE0882BB6912D5.quest_desc: [
 		"袭击来了，但是...有点不太一样？"
 		""
@@ -77,16 +108,34 @@
 	]
 	quest.52DE0882BB6912D5.quest_subtitle: "做好准备~"
 	quest.52DE0882BB6912D5.title: "空袭！！！"
+	quest.546EDBC2FF81DB43.quest_desc: ["将前置原材料放入搅拌机搅拌获取甜面团"]
+	quest.546EDBC2FF81DB43.title: "制作 甜面团"
 	quest.566C0149AB2A0890.quest_desc: [
 		"要召唤梦眠月鹿，首先需要使用一个月明珠对梦眠之草右键，将会在此处生成梦眠月鹿召唤祭坛法阵，再使用月壳修复破损的月明珠，使用月明珠右击祭坛，即可召唤。"
 		"这是一个强大的BOSS，挑战前务必做好充分准备~"
 	]
 	quest.566C0149AB2A0890.title: "月鹿"
 	quest.56CEA377B79FD7DB.quest_desc: ["机械师，武装起自己！"]
+	quest.58F52FCDB605AA4D.quest_desc: ["使用奶桶和玻璃瓶合成瓶装奶"]
+	quest.58F52FCDB605AA4D.title: "准备原料：瓶装奶"
 	quest.5E8A8CCB737A4E66.quest_desc: ["大面积防止刷怪！！！"]
+	quest.5F377F31F1635FC7.quest_desc: ["丰饶食记添加一系列农业相关作物、果树食物和装饰"]
+	quest.5F377F31F1635FC7.title: "丰饶食记"
 	quest.5FA002B22A495EA8.quest_desc: ["处置月球上的一些不速之客"]
 	quest.5FA002B22A495EA8.title: "月球基地"
+	quest.5FC3799134FCBEA1.title: "面粉转换"
 	quest.66A8A34342A09504.quest_desc: ["默认键位为F6进入/取消灵魂出窍状态"]
+	quest.6AAF84CF13BDAA99.quest_desc: ["将发酵甜面团放入面胚制作台，制作圆面包面胚"]
+	quest.6AAF84CF13BDAA99.title: "制作 圆面包面胚"
+	quest.6B693FB6DFA646F7.quest_desc: [
+		"获取盐的途径："
+		"1.挖掘盐矿石，然后烧制获取"
+		"2.寻找盐矿井结构，其中有盐水，盐水和水的性质一致，均可制作无限水"
+		"{image:kubejs:textures/quest/quest_img8.png width:140 height:100 align:center}"
+		"将盐水覆盖在营火上方时，一段时间后析出盐块，挖掘掉落盐（或是精准采集挖掘掉落盐块，然后研磨粗盐块获取盐）"
+		"{image:kubejs:textures/quest/quest_img9.png width:140 height:100 align:center}"
+	]
+	quest.6B693FB6DFA646F7.title: "准备原料：盐"
 	quest.6EBA714191D5841F.quest_desc: ["驯服巨大的鲸鱼，乘坐它去远航。"]
 	quest.6EBA714191D5841F.title: "鲸帆远航"
 	quest.71E03378BEA4305E.quest_desc: [
@@ -98,19 +147,28 @@
 		"月壳蟹死亡掉落月壳。"
 	]
 	quest.71E03378BEA4305E.title: "月林生物"
+	quest.7484A15067E98B1C.quest_desc: ["手持玻璃瓶右击满装酵母罐获得瓶装鲜酵母"]
+	quest.7484A15067E98B1C.title: "准备原料：瓶装鲜酵母"
 	quest.753F1BEC85F7F64B.quest_subtitle: "需要完成主线任务的“探索深空”"
 	quest.753F1BEC85F7F64B.title: "月球"
+	quest.76E8460FAEFEEAB9.quest_desc: ["将三份全麦面粉放入发酵罐内，之后手持水瓶右击倒入，静置一段时间，即可获得满装酵母罐"]
+	quest.76E8460FAEFEEAB9.title: "准备原料：全麦面粉"
 	quest.787F180D7A09997E.title: "下界、末地更新"
 	quest.7DC0E43B54FCFC8F.quest_desc: ["&b本任务子章节介绍整合包科技部分内容&r"]
 	quest.7DC0E43B54FCFC8F.title: "科技飞升"
 	reward_table.103709C275B2C42D.title: "生态币矿石包"
+	reward_table.1B4D6D9A8A22277C.title: "随机种子包"
 	reward_table.330FEE303B7262FD.title: "生态币树苗包"
 	reward_table.57BF76F52B594614.title: "染料表"
+	reward_table.6629690D27718CD2.title: "稻草人选择包"
 	task.043ADF49CE8039DF.title: "浮岛探索"
 	task.08ACE6D3626FE7E3.title: "空袭！！！"
+	task.175F258A47D5271D.title: "面粉转换"
+	task.25795AC68467FEA2.title: "果树"
 	task.2BA4B2E82C363FFC.title: "安山时代"
 	task.2EE9B3AB7DACAFFC.title: "是！史蒂夫模型"
 	task.3501D5C0A5E74429.title: "灵魂出窍"
+	task.43DE56EA9596E245.title: "蜡烛"
 	task.550A1813BB88BFD2.title: "生态币兑换"
 	task.599AEDD710C70A5E.title: "科技建设"
 	task.5B985E0F36739B20.title: "石器时代"

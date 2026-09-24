@@ -1,0 +1,65 @@
+{
+	id: "1B4D6D9A8A22277C"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			id: "6165C97556730A66"
+			item: {
+				count: 1
+				id: "bountifulfares:grass_seeds"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "5B5E3CF5C57FCE36"
+			item: {
+				count: 1
+				id: "minecraft:wheat_seeds"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "076CDBE0BAF87E80"
+			item: {
+				count: 1
+				id: "minecraft:pumpkin_seeds"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "1EB62AEAC3FAD107"
+			item: {
+				count: 1
+				id: "minecraft:melon_seeds"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "7291D57F94F7D482"
+			item: {
+				count: 1
+				id: "minecraft:beetroot_seeds"
+			}
+			weight: 3.0f
+		}
+		{ id: "75C4166B8A53D86C", item: { count: 1, id: "bountifulfares:maize_seeds" } }
+		{ id: "5D25E7170B247056", item: { count: 1, id: "bountifulfares:leek_seeds" } }
+		{ id: "37C6211872C07AF5", item: { count: 1, id: "bountifulfares:spongekin_seeds" } }
+		{ id: "496BC9875C8589C1", item: { count: 1, id: "bountifulfares:lapisberry_seeds" } }
+		{ id: "69F459C54927B7B9", item: { count: 1, id: "bountifulfares:hoary_seeds" } }
+		{ id: "793365A175003505", item: { count: 1, id: "betterend:end_lotus_seed" } }
+		{ id: "2118FB0A6C3B097C", item: { count: 1, id: "betterend:blue_vine_seed" } }
+		{ id: "2CCC88CD23589C69", item: { count: 1, id: "betterend:lanceleaf_seed" } }
+		{ id: "45C75E815180A65E", item: { count: 1, id: "betterend:glowing_pillar_seed" } }
+		{ id: "422BDC45173EBC14", item: { count: 1, id: "betterend:lumecorn_seed" } }
+		{ id: "5631136E9F83D8FD", item: { count: 1, id: "betterend:shadow_berry" } }
+		{ id: "02B8EB5FEC01828A", item: { count: 1, id: "betterend:blossom_berry_seed" } }
+		{ id: "643E192958FD7A6A", item: { count: 1, id: "betterend:amber_root_seed" } }
+		{ id: "346A4A717C2A1E7E", item: { count: 1, id: "betterend:chorus_mushroom_seed" } }
+		{ id: "5964912BD257C4C1", item: { count: 1, id: "betterend:cave_pumpkin_seed" } }
+		{ id: "50E6D5E90E4CB284", item: { count: 1, id: "betterend:end_lily_seed" } }
+		{ id: "3ACF43F404B07F28", item: { count: 1, id: "betterend:bulb_vine_seed" } }
+		{ id: "1B1349B20E03F7C2", item: { count: 1, id: "biomeswevegone:pale_pumpkin_seeds" } }
+	]
+}
