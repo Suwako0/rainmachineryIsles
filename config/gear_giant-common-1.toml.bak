@@ -1,0 +1,73 @@
+#齿轮巨人 BOSS 战斗参数
+[boss]
+	#齿轮巨人的最大生命值（点）。Boss 条与 50%/25% 阶段阈值都按它折算。
+	#默认 1000 点；调小则整场战斗更快结束。
+	# Default: 1000
+	# Range: 20 ~ 10000000
+	giantMaxHealth = 1000
+	#齿轮巨人的基础攻击力（点）：徒手砸击与冲撞撞击的伤害都从它出发。
+	#在巨人下一次生成/读档时生效。
+	# Default: 14
+	# Range: 1 ~ 1000
+	giantAttackDamage = 14
+	#齿轮巨人的护甲值（点）。16 点约等效 32% 物理减伤，请勿调得过高。
+	#在巨人下一次生成/读档时生效。
+	# Default: 12
+	# Range: 0 ~ 30
+	giantArmor = 12
+	#齿轮巨人的护甲韧性（点），削弱高等级穿透附魔的破甲效果。
+	# Default: 6
+	# Range: 0 ~ 20
+	giantArmorToughness = 6
+	#齿轮巨人的基础移动速度（原版属性单位，铁傀儡约 0.25）。
+	#在巨人下一次生成/读档时生效。
+	# Default: 0.3
+	# Range: 0.05 ~ 1.0
+	giantMovementSpeed = 0.3
+	#技能伤害倍率：作用于砸击震波、冲撞冲击波、蒸汽喷发、过载激光、
+	#地裂齿轮、齿轮弹幕、跳跃砸地、旋风横扫等所有招式附加伤害。
+	# Default: 1.75
+	# Range: 0.0 ~ 10.0
+	skillDamageScale = 1.75
+	#转阶段无敌窗口时长（刻，20 刻 = 1 秒）。默认 40 = 2 秒；填 0 关闭。
+	#阶段切换瞬间起，巨人完全免疫伤害该时长；结束后仍进入 3 秒硬直窗口（受击 ×1.5）。
+	# Default: 40
+	# Range: 0 ~ 200
+	giantPhaseInvulnTicks = 40
+	#是否启用机械钩爪：巨人向远处放风筝的玩家掷爪，命中后拖到脚下甩摔。
+	giantHookEnabled = true
+	#机械钩爪的基础伤害（命中一下 + 甩摔 ×0.8），仍会再乘 skillDamageScale。
+	# Default: 5
+	# Range: 0 ~ 40
+	giantHookDamage = 5
+	#机械钩爪的出手距离上限（格）。目标太远时不会尝试出爪。
+	# Default: 30
+	# Range: 16 ~ 64
+	giantHookRange = 30
+	#机械钩爪的出手距离下限（格）。目标比这更近时钩爪不出手。
+	# Default: 12
+	# Range: 4 ~ 32
+	giantHookMinDistance = 12
+	#机械钩爪冷却（刻，20 刻 = 1 秒）。三阶段自动缩短 25%。
+	# Default: 300
+	# Range: 60 ~ 1200
+	giantHookCooldown = 300
+	#是否启用“齿轮仆从充能回血”：仆从存活时会持续把应力回灌给巨人。
+	gearlingHealing = true
+	#每个与巨人保持连接的仆从，为巨人提供的每秒回血量（点/秒）。
+	# Default: 1.0
+	# Range: 0.0 ~ 20.0
+	gearlingHealPerSecond = 1.0
+	#回血计算最多计入的仆从数量（防止后期 6 只叠满过于夸张）。
+	# Default: 4
+	# Range: 1 ~ 12
+	gearlingHealLinkCap = 4
+
+#BOSS 战音乐（客户端）
+[music]
+	#靠近存活的齿轮巨人时，是否自动播放专属战斗音乐。
+	battleMusic = true
+	#战斗音乐音量（0.0~1.0），仍受游戏“音乐”总音量控制。
+	# Default: 0.85
+	# Range: 0.0 ~ 1.0
+	battleMusicVolume = 0.85

@@ -77,6 +77,7 @@
 		"冒险旅途中充斥着许多危险的怪物，弄一些枪和子弹防身或许比传统武器更方便。"
 		"注意：枪械和子弹分别需要使用枪械图纸和子弹零件，这两个物品需要建立生态区，使用生态币兑换获取。"
 	]
+	quest.3B61D9650E9D51D7.quest_subtitle: "为确保平衡性，枪械伤害已被调整"
 	quest.3B61D9650E9D51D7.title: "起枪"
 	quest.3CA5851DD8FF7348.quest_desc: ["&b本任务子章节介绍整合包冒险部分内容&r"]
 	quest.3CA5851DD8FF7348.title: "浮岛探索"
@@ -155,6 +156,7 @@
 	quest.753F1BEC85F7F64B.title: "月球"
 	quest.76E8460FAEFEEAB9.quest_desc: ["将三份全麦面粉放入发酵罐内，之后手持水瓶右击倒入，静置一段时间，即可获得满装酵母罐"]
 	quest.76E8460FAEFEEAB9.title: "准备原料：全麦面粉"
+	quest.7808DD2FE7EA5184.title: "兑换 机械地牢钥匙"
 	quest.787F180D7A09997E.title: "下界、末地更新"
 	quest.7DC0E43B54FCFC8F.quest_desc: ["&b本任务子章节介绍整合包科技部分内容&r"]
 	quest.7DC0E43B54FCFC8F.title: "科技飞升"

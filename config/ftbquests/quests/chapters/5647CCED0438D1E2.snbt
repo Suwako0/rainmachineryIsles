@@ -1042,13 +1042,20 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				consume_items: true
-				count: 500L
-				id: "6F72E5552C5D78A3"
-				item: { count: 1, id: "kubejs:environment_coin" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 500L
+					id: "6F72E5552C5D78A3"
+					item: { count: 1, id: "kubejs:environment_coin" }
+					type: "item"
+				}
+				{
+					id: "556F10EEAF9616DC"
+					item: { count: 1, id: "create:sturdy_sheet" }
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 2.0d
 		}
@@ -1065,13 +1072,22 @@
 				table_id: 1168413359128888365L
 				type: "random"
 			}]
-			tasks: [{
-				consume_items: true
-				count: 25L
-				id: "74D27D3EA117F73C"
-				item: { count: 1, id: "kubejs:environment_coin" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 25L
+					id: "74D27D3EA117F73C"
+					item: { count: 1, id: "kubejs:environment_coin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "4F6E2FF430276776"
+					item: { count: 1, id: "minecraft:gunpowder" }
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: 3.0d
 		}
@@ -1174,6 +1190,27 @@
 			}]
 			x: -0.5d
 			y: 3.0d
+		}
+		{
+			icon: {
+				id: "dimdungeons:item_portal_key"
+			}
+			id: "7808DD2FE7EA5184"
+			optional: true
+			rewards: [{
+				command: "/dimdungeons givekey theme @s 4"
+				id: "76CF0A06B91BA47A"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "397C88D45DF265A7"
+				item: { count: 1, id: "kubejs:environment_coin" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
 		}
 	]
 }

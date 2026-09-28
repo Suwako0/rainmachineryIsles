@@ -138,6 +138,21 @@
 					}
 					type: "item"
 				}
+				{
+					count: 240
+					id: "30608802F3AC502E"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								AmmoId: "tacz:9mm"
+							}
+							"minecraft:max_stack_size": 60
+						}
+						count: 1
+						id: "tacz:ammo"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
