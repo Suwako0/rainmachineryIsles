@@ -53,15 +53,21 @@
 				count: 10
 				id: "6E89DA983CDFD055"
 				item: {
+					components: {
+						"ftbquests:missing_item": "northstar_moon_addon:moon_bloom"
+					}
 					count: 1
-					id: "northstar_moon_addon:moon_bloom"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				biome: "northstar_moon_addon:moon_forest"
 				icon: {
-					id: "northstar_moon_addon:moonlight_sapling"
+					components: {
+						"ftbquests:missing_item": "northstar_moon_addon:moonlight_sapling"
+					}
+					id: "ftbquests:missing_item"
 				}
 				id: "6AEB87E9DD39A665"
 				type: "biome"
@@ -76,8 +82,11 @@
 				{
 					id: "2BE7CA5A2E4FA8BF"
 					item: {
+						components: {
+							"ftbquests:missing_item": "northstar_moon_addon:mooncake"
+						}
 						count: 1
-						id: "northstar_moon_addon:mooncake"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -112,7 +121,7 @@
 				}
 				{
 					id: "41C8917D5E9C1B37"
-					item: { count: 1, id: "northstar_moon_addon:moon_deer_antler" }
+					item: { components: { "ftbquests:missing_item": "northstar_moon_addon:moon_deer_antler" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
@@ -141,13 +150,38 @@
 			tasks: [{
 				biome: "northstar_moon_addon:open_hot_spring"
 				icon: {
-					id: "northstar_moon_addon:hot_spring_bucket"
+					components: {
+						"ftbquests:missing_item": "northstar_moon_addon:hot_spring_bucket"
+					}
+					id: "ftbquests:missing_item"
 				}
 				id: "6E6B5CE49AEA2E64"
 				type: "biome"
 			}]
 			x: -4.0d
 			y: -5.5d
+		}
+		{
+			dependencies: ["0665A5AE6D83F8AB"]
+			id: "41FFAF408A5034E0"
+			tasks: [{
+				dimension: "northstar:mercury"
+				id: "67FCA59D85CE0392"
+				type: "dimension"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0665A5AE6D83F8AB"]
+			id: "5A18E283D1573427"
+			tasks: [{
+				dimension: "northstar:venus"
+				id: "2DDDF7C361AC3657"
+				type: "dimension"
+			}]
+			x: -6.0d
+			y: 4.5d
 		}
 	]
 }
